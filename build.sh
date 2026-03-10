@@ -158,14 +158,21 @@ try {
     console.error('Could not parse RESEARCH.md:', error.message);
 }
 
+// Sort by timestamp (newest first) and limit to 30
+items.sort((a, b) => {
+    const dateA = new Date(a.timestamp || '2000-01-01');
+    const dateB = new Date(b.timestamp || '2000-01-01');
+    return dateB - dateA; // Descending order (newest first)
+});
+
 // Generate output
 const output = {
     lastUpdate: new Date().toISOString(),
-    items: items.slice(-30) // Keep last 30 items
+    items: items.slice(0, 30) // Keep top 30 items (newest)
 };
 
 fs.writeFileSync(path.join(__dirname, 'data.json'), JSON.stringify(output, null, 2));
-console.log(`✅ Generated data.json with ${output.items.length} items`);
+console.log(`✅ Generated data.json with ${output.items.length} items (sorted newest first)`);
 EOF
 
 echo "Dashboard data updated successfully!"
