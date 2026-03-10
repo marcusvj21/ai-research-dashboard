@@ -168,9 +168,9 @@ function parseResearchMarkdown(content, source) {
                 i++;
             }
             
-            // FILTER: Only include if passes signal test
+            // FILTER: Only include if passes signal test AND has a link
             const fullText = title + ' ' + description;
-            if (title && description.length > 10 && isSignal(fullText, link)) {
+            if (title && description.length > 10 && link && isSignal(fullText, link)) {
                 items.push({
                     category,
                     title: title.substring(0, 150),
