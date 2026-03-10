@@ -27,7 +27,8 @@ const SIGNAL_KEYWORDS = [
     'tutorial', 'guide', 'how to', 'demo', 'show hn', 'open source', 'github',
     'api', 'integration', 'workflow', 'setup', 'install',
     'tool use', 'function calling', 'multi-agent', 'autonomous', 'self-improving',
-    'code generation', 'debugging', 'testing', 'arxiv'
+    'code generation', 'debugging', 'testing', 'arxiv',
+    'agentic', 'engineering pattern', 'simon willison', 'simonwillison.net'
 ];
 
 // Skip noise
@@ -45,9 +46,17 @@ const NOISE_KEYWORDS = [
 
 function shouldSkipHeader(title) {
     const lower = title.toLowerCase().trim();
+    
+    // NEVER skip if contains key content markers
+    if (lower.includes('simon willison') || 
+        lower.includes('agentic') || 
+        lower.includes('openclaw') || 
+        lower.includes('claude code')) {
+        return false;
+    }
+    
     return SKIP_HEADERS.some(skip => lower.includes(skip)) ||
-           title.match(/^[0-9️⃣]+/) || // Skip numbered headers
-           title.match(/^[🔍🛠️🟢📈🆕💡🐦⚠️📝🔄]/); // Skip emoji-only organizational headers
+           title.match(/^[0-9️⃣]+$/); // Skip ONLY numbered headers
 }
 
 function isSignal(text, link) {
