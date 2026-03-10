@@ -91,7 +91,7 @@
                 <div class="card rounded-lg shadow-xl p-6 mb-4 item" data-category="${item.category}">
                     <div class="flex items-start justify-between mb-3">
                         <span class="badge badge-${item.category}">${getCategoryIcon(item.category)} ${item.category.toUpperCase()}</span>
-                        <span class="text-sm text-gray-500">${item.timestamp}</span>
+                        <span class="text-sm text-gray-500">${formatTimestamp(item.timestamp)}</span>
                     </div>
                     <h3 class="text-xl font-bold text-gray-800 mb-2">${item.title}</h3>
                     ${item.subtitle ? `<p class="text-sm text-gray-600 mb-3">${item.subtitle}</p>` : ''}
@@ -113,6 +113,22 @@
                 'ecosystem': '🌐'
             };
             return icons[category] || '📌';
+        }
+
+        function formatTimestamp(timestamp) {
+            const date = new Date(timestamp);
+            const now = new Date();
+            const diffMs = now - date;
+            const diffMins = Math.floor(diffMs / 60000);
+            const diffHours = Math.floor(diffMs / 3600000);
+            const diffDays = Math.floor(diffMs / 86400000);
+
+            if (diffMins < 1) return 'Just now';
+            if (diffMins < 60) return `${diffMins} min ago`;
+            if (diffHours < 24) return `${diffHours}h ago`;
+            if (diffDays < 7) return `${diffDays}d ago`;
+            
+            return date.toLocaleDateString();
         }
 
         // Load data on page load

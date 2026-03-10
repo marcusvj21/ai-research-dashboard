@@ -1,20 +1,11 @@
 {
-  "lastUpdate": "2026-03-10T18:31:41.777Z",
+  "lastUpdate": "2026-03-10T18:32:22.999Z",
   "items": [
-    {
-      "category": "breaking",
-      "title": "🚀 YANN LECUN $1B EXPLODING (+158 IN 3 HOURS!)",
-      "description": "**#8 on HN** - massive momentum\n**Link:** https://www.ft.com/content/e5245ec3-1a58-4eff-ab58-480b6259aaf1\n\n- **218 points** (up from 60) - **+158 in 3 hours!**\n- **125 comments** (up from 41) - **+84**\n- **$1 billion seed round** - Europe's largest ever\n- Meta's Chief AI Scientist launching independ...",
-      "timestamp": "2026-03-10",
-      "link": "https://www.ft.com/content/e5245ec3-1a58-4eff-ab58-480b6259aaf1",
-      "subtitle": null,
-      "metrics": null
-    },
     {
       "category": "breaking",
       "title": "🚫 REDOX NO-LLM CONTROVERSY INTENSIFYING",
       "description": "**#18 on HN** - 255 points, 261 comments (5h old)\n**Link:** https://gitlab.redox-os.org/redox-os/redox/-/blob/master/CONTRIBUTING.md\n\n- **255 points** (up from 163 = +92)\n- **261 comments** (up from 133 = +128!)\n- Rust-based OS bans AI-generated code\n- Community deeply divided\n- **Pattern:** Open so...",
-      "timestamp": "2026-03-10",
+      "timestamp": "2026-03-10T18:32:22.998Z",
       "link": "https://gitlab.redox-os.org/redox-os/redox/-/blob/master/CONTRIBUTING.md",
       "subtitle": null,
       "metrics": "255 points • 261 comments"
@@ -23,7 +14,7 @@
       "category": "breaking",
       "title": "💰 CLAUDE CODE ECONOMICS: +274 POINTS TOTAL",
       "description": "**#19 on HN** - 343 points, 248 comments (15h old)\n**Link:** https://martinalderson.com/posts/no-it-doesnt-cost-anthropic-5k-per-claude-code-user/\n\n- Started at **69 points** this morning\n- Now **343 points** (+274 total!)\n- **248 comments** (up from 21 = +227!)\n- Debunking $5k/user cost claim\n\n**Si...",
-      "timestamp": "2026-03-10",
+      "timestamp": "2026-03-10T18:32:22.998Z",
       "link": "https://martinalderson.com/posts/no-it-doesnt-cost-anthropic-5k-per-claude-code-user/",
       "subtitle": null,
       "metrics": "343 points • 248 comments"
@@ -32,7 +23,7 @@
       "category": "breaking",
       "title": "LICENSING CRISIS: 523/523 MILESTONE",
       "description": "**#24 on HN** - 23 hours old, still active\n**Link:** https://writings.hongminhee.org/2026/03/legal-vs-legitimate/\n\n- **523 points, 523 COMMENTS**\n- **Unusual:** Exact same number of points and comments\n- Question: Can AI rewrite GPL code as MIT?\n- THE sustained AI conversation for 23+ hours\n\n---...",
-      "timestamp": "2026-03-10",
+      "timestamp": "2026-03-10T18:32:22.998Z",
       "link": "https://writings.hongminhee.org/2026/03/legal-vs-legitimate/",
       "subtitle": null,
       "metrics": null
@@ -41,7 +32,7 @@
       "category": "breaking",
       "title": "🎥 NEW: DEEPMIND 3D RECONSTRUCTION",
       "description": "**#14 on HN** - 94 points, 24 comments\n**Link:** https://loger-project.github.io\n\n- **LoGeR:** 3D reconstruction from extremely long videos\n- DeepMind + UC Berkeley collaboration\n- New AI research advancement\n\n---...",
-      "timestamp": "2026-03-10",
+      "timestamp": "2026-03-10T18:32:22.998Z",
       "link": "https://loger-project.github.io",
       "subtitle": null,
       "metrics": "94 points • 24 comments"
@@ -50,7 +41,7 @@
       "category": "breaking",
       "title": "📉 OPENCLAW 24-HOUR RUN COMPLETE",
       "description": "DenchClaw and Terminal Use aged out of top 30 after 24+ hours:\n- Both sustained 18-19 hours in top 25\n- **Validation achieved:** Real community interest confirmed\n\n---...",
-      "timestamp": "2026-03-10",
+      "timestamp": "2026-03-10T18:32:22.998Z",
       "link": null,
       "subtitle": null,
       "metrics": null
@@ -59,7 +50,7 @@
       "category": "arxiv",
       "title": "arXiv Status",
       "description": "No new AI/agent papers since this morning's 6-paper wave:\n- Agentic Critical Training\n- RetroAgent (self-evolving)\n- Agentic Neurosymbolic Collaboration (Cornell/Vienna)\n- + 3 more (see RESEARCH.md)\n\n---...",
-      "timestamp": "2026-03-10",
+      "timestamp": "2026-03-10T18:32:22.998Z",
       "link": null,
       "subtitle": null,
       "metrics": null
@@ -68,8 +59,17 @@
       "category": "breaking",
       "title": "🎯 Key Insights (14:36 UTC)",
       "description": "1. **Yann LeCun $1B = biggest growth** (+158 points in 3 hours)\n2. **Redox AI ban = community split** (261 comments, 128 in 3h)\n3. **523/523 = rare HN moment** (same points and comments)\n4. **Claude Code economics = sustained interest** (+274 total growth)\n5. **Licensing debate = 23+ hours sustained...",
-      "timestamp": "2026-03-10",
+      "timestamp": "2026-03-10T18:32:22.998Z",
       "link": null,
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "breaking",
+      "title": "🚀 YANN LECUN $1B EXPLODING (+158 IN 3 HOURS!)",
+      "description": "**#8 on HN** - massive momentum\n**Link:** https://www.ft.com/content/e5245ec3-1a58-4eff-ab58-480b6259aaf1\n\n- **218 points** (up from 60) - **+158 in 3 hours!**\n- **125 comments** (up from 41) - **+84**\n- **$1 billion seed round** - Europe's largest ever\n- Meta's Chief AI Scientist launching independ...",
+      "timestamp": "2026-03-10T18:32:22.997Z",
+      "link": "https://www.ft.com/content/e5245ec3-1a58-4eff-ab58-480b6259aaf1",
       "subtitle": null,
       "metrics": null
     }

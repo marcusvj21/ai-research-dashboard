@@ -80,7 +80,7 @@ try {
             category,
             title: title.replace(/🚨|📄|🔥|🤖/g, '').trim(),
             description: content.substring(0, 300).trim() + '...',
-            timestamp: new Date().toISOString().split('T')[0],
+            timestamp: new Date().toISOString(), // Use full ISO timestamp for breaking news
             link: null,
             subtitle: null,
             metrics: null
