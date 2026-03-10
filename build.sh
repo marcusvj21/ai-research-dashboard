@@ -30,9 +30,19 @@ const SIGNAL_KEYWORDS = [
 
 // Keywords that indicate NOISE (skip these)
 const NOISE_KEYWORDS = [
-    'lawsuit', 'legal battle', 'controversy', 'drama', 'raises $', 'funding',
-    'license debate', 'copyright', 'ethics debate', 'philosophical',
-    'oracle', 'nvidia partnership', 'industry conflict', 'stock price'
+    // Funding & business
+    'raises $', '$1b', 'billion', 'funding', 'seed round', 'investment', 'valuation',
+    
+    // Legal & licensing
+    'lawsuit', 'legal battle', 'controversy', 'ban', 'bans', 'policy', 'license debate',
+    'copyright', 'no-llm', 'ai-generated code', 'philosophical',
+    
+    // Industry drama
+    'drama', 'conflict', 'walking away', 'exits', 'oracle', 'nvidia partnership', 
+    'stock price', 'exploding', 'intensifying',
+    
+    // General noise
+    'yann lecun', 'redox', 'ethics debate'
 ];
 
 function isSignal(text) {
