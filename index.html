@@ -25,6 +25,36 @@
         .badge-hn { background: #ff6600; color: white; }
         .badge-anthropic { background: #8b5cf6; color: white; }
         .badge-ecosystem { background: #10b981; color: white; }
+        
+        .tab {
+            padding: 0.75rem 1.5rem;
+            cursor: pointer;
+            border-bottom: 3px solid transparent;
+            transition: all 0.2s;
+        }
+        .tab:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+        .tab.active {
+            border-bottom-color: white;
+            font-weight: 600;
+        }
+        
+        .pagination-btn {
+            padding: 0.5rem 1rem;
+            background: white;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .pagination-btn:hover:not(:disabled) {
+            background: #f3f4f6;
+            transform: translateY(-2px);
+        }
+        .pagination-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
     </style>
 </head>
 <body class="min-h-screen py-8 px-4">
@@ -36,10 +66,35 @@
             <p class="text-sm text-gray-500 mt-2" id="lastUpdate">Last update: Loading...</p>
         </div>
 
-        <!-- Filters -->
+        <!-- Search -->
+        <div class="card rounded-lg shadow-xl p-4 mb-6">
+            <input 
+                type="text" 
+                id="searchInput" 
+                placeholder="🔍 Search by title, description, or category..."
+                class="w-full px-4 py-3 rounded-lg border-2 border-gray-200 focus:border-purple-500 focus:outline-none"
+            />
+        </div>
+
+        <!-- Time Tabs -->
+        <div class="card rounded-lg shadow-xl mb-6 overflow-hidden">
+            <div class="flex text-white bg-gradient-to-r from-purple-600 to-indigo-600">
+                <div class="tab active" data-filter="all" onclick="filterByTime('all')">
+                    📚 All News
+                </div>
+                <div class="tab" data-filter="week" onclick="filterByTime('week')">
+                    📅 This Week
+                </div>
+                <div class="tab" data-filter="today" onclick="filterByTime('today')">
+                    ⚡ Today
+                </div>
+            </div>
+        </div>
+
+        <!-- Category Filters -->
         <div class="card rounded-lg shadow-xl p-4 mb-6">
             <div class="flex flex-wrap gap-2">
-                <button onclick="filterCategory('all')" class="badge bg-gray-700 text-white hover:bg-gray-800 cursor-pointer">All</button>
+                <button onclick="filterCategory('all')" class="badge bg-gray-700 text-white hover:bg-gray-800 cursor-pointer active-category">All</button>
                 <button onclick="filterCategory('breaking')" class="badge badge-breaking hover:opacity-80 cursor-pointer">🚨 Breaking</button>
                 <button onclick="filterCategory('arxiv')" class="badge badge-arxiv hover:opacity-80 cursor-pointer">📄 arXiv</button>
                 <button onclick="filterCategory('hn')" class="badge badge-hn hover:opacity-80 cursor-pointer">🔥 Hacker News</button>
@@ -48,47 +103,127 @@
             </div>
         </div>
 
+        <!-- Stats -->
+        <div class="card rounded-lg shadow-xl p-4 mb-6">
+            <p class="text-gray-600 text-sm">
+                Showing <span id="showingCount" class="font-bold">0</span> of <span id="totalCount" class="font-bold">0</span> items
+                <span id="filterInfo" class="ml-2 text-purple-600"></span>
+            </p>
+        </div>
+
         <!-- Content -->
         <div id="content">
             <p class="text-white text-center">Loading intelligence...</p>
+        </div>
+
+        <!-- Pagination -->
+        <div class="card rounded-lg shadow-xl p-4 mt-6 flex items-center justify-between">
+            <button onclick="previousPage()" id="prevBtn" class="pagination-btn">← Previous</button>
+            <div class="text-gray-600">
+                Page <span id="currentPage">1</span> of <span id="totalPages">1</span>
+            </div>
+            <button onclick="nextPage()" id="nextBtn" class="pagination-btn">Next →</button>
         </div>
     </div>
 
     <script>
         let allData = [];
-        let currentFilter = 'all';
+        let filteredData = [];
+        let currentCategoryFilter = 'all';
+        let currentTimeFilter = 'all';
+        let currentSearchTerm = '';
+        let currentPage = 1;
+        const itemsPerPage = 10;
 
         async function loadData() {
             try {
                 const response = await fetch('data.json');
                 const data = await response.json();
                 allData = data.items;
-                document.getElementById('lastUpdate').textContent = `Last update: ${data.lastUpdate}`;
-                renderItems();
+                document.getElementById('lastUpdate').textContent = `Last update: ${formatTimestamp(data.lastUpdate)}`;
+                document.getElementById('totalCount').textContent = allData.length;
+                applyFilters();
             } catch (error) {
                 document.getElementById('content').innerHTML = 
                     '<p class="text-white text-center">Error loading data. Please refresh.</p>';
             }
         }
 
+        function filterByTime(filter) {
+            currentTimeFilter = filter;
+            currentPage = 1;
+            
+            // Update tab styles
+            document.querySelectorAll('.tab').forEach(tab => {
+                tab.classList.remove('active');
+                if (tab.dataset.filter === filter) {
+                    tab.classList.add('active');
+                }
+            });
+            
+            applyFilters();
+        }
+
         function filterCategory(category) {
-            currentFilter = category;
+            currentCategoryFilter = category;
+            currentPage = 1;
+            
+            // Update category button styles
+            document.querySelectorAll('.badge').forEach(badge => {
+                badge.classList.remove('active-category', 'ring-2', 'ring-white');
+            });
+            event.target.classList.add('active-category', 'ring-2', 'ring-white');
+            
+            applyFilters();
+        }
+
+        function applyFilters() {
+            let filtered = [...allData];
+            
+            // Time filter
+            const now = new Date();
+            const todayStart = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+            const weekStart = new Date(now.getTime() - 7 * 24 * 60 * 60 * 1000);
+            
+            if (currentTimeFilter === 'today') {
+                filtered = filtered.filter(item => new Date(item.timestamp) >= todayStart);
+            } else if (currentTimeFilter === 'week') {
+                filtered = filtered.filter(item => new Date(item.timestamp) >= weekStart);
+            }
+            
+            // Category filter
+            if (currentCategoryFilter !== 'all') {
+                filtered = filtered.filter(item => item.category === currentCategoryFilter);
+            }
+            
+            // Search filter
+            if (currentSearchTerm) {
+                const searchLower = currentSearchTerm.toLowerCase();
+                filtered = filtered.filter(item => 
+                    item.title.toLowerCase().includes(searchLower) ||
+                    item.description.toLowerCase().includes(searchLower) ||
+                    item.category.toLowerCase().includes(searchLower)
+                );
+            }
+            
+            filteredData = filtered;
             renderItems();
+            updateStats();
         }
 
         function renderItems() {
-            const filtered = currentFilter === 'all' 
-                ? allData 
-                : allData.filter(item => item.category === currentFilter);
-
-            if (filtered.length === 0) {
+            const start = (currentPage - 1) * itemsPerPage;
+            const end = start + itemsPerPage;
+            const pageItems = filteredData.slice(start, end);
+            
+            if (pageItems.length === 0) {
                 document.getElementById('content').innerHTML = 
-                    '<div class="card rounded-lg shadow-xl p-8 text-center"><p class="text-gray-600">No items in this category yet.</p></div>';
+                    '<div class="card rounded-lg shadow-xl p-8 text-center"><p class="text-gray-600">No items match your filters.</p></div>';
                 return;
             }
 
-            const html = filtered.map(item => `
-                <div class="card rounded-lg shadow-xl p-6 mb-4 item" data-category="${item.category}">
+            const html = pageItems.map(item => `
+                <div class="card rounded-lg shadow-xl p-6 mb-4 item hover:shadow-2xl transition-all" data-category="${item.category}">
                     <div class="flex items-start justify-between mb-3">
                         <span class="badge badge-${item.category}">${getCategoryIcon(item.category)} ${item.category.toUpperCase()}</span>
                         <span class="text-sm text-gray-500">${formatTimestamp(item.timestamp)}</span>
@@ -102,6 +237,49 @@
             `).join('');
 
             document.getElementById('content').innerHTML = html;
+            updatePagination();
+        }
+
+        function updateStats() {
+            document.getElementById('showingCount').textContent = filteredData.length;
+            
+            let filterText = '';
+            if (currentTimeFilter !== 'all') {
+                filterText += `• ${currentTimeFilter === 'today' ? 'Today' : 'This Week'} `;
+            }
+            if (currentCategoryFilter !== 'all') {
+                filterText += `• ${currentCategoryFilter} `;
+            }
+            if (currentSearchTerm) {
+                filterText += `• Search: "${currentSearchTerm}" `;
+            }
+            document.getElementById('filterInfo').textContent = filterText;
+        }
+
+        function updatePagination() {
+            const totalPages = Math.max(1, Math.ceil(filteredData.length / itemsPerPage));
+            document.getElementById('currentPage').textContent = currentPage;
+            document.getElementById('totalPages').textContent = totalPages;
+            
+            document.getElementById('prevBtn').disabled = currentPage === 1;
+            document.getElementById('nextBtn').disabled = currentPage >= totalPages;
+        }
+
+        function previousPage() {
+            if (currentPage > 1) {
+                currentPage--;
+                renderItems();
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+        }
+
+        function nextPage() {
+            const totalPages = Math.ceil(filteredData.length / itemsPerPage);
+            if (currentPage < totalPages) {
+                currentPage++;
+                renderItems();
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
         }
 
         function getCategoryIcon(category) {
@@ -130,6 +308,16 @@
             
             return date.toLocaleDateString();
         }
+
+        // Search input handler
+        document.addEventListener('DOMContentLoaded', () => {
+            const searchInput = document.getElementById('searchInput');
+            searchInput.addEventListener('input', (e) => {
+                currentSearchTerm = e.target.value;
+                currentPage = 1;
+                applyFilters();
+            });
+        });
 
         // Load data on page load
         loadData();
