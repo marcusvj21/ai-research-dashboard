@@ -33,15 +33,28 @@ const SIGNAL_KEYWORDS = [
 
 // Skip noise
 const NOISE_KEYWORDS = [
+    // Funding & business
     'raises $', '$1b', 'billion', 'funding', 'seed round', 'investment', 'valuation',
+    
+    // Legal & licensing
     'lawsuit', 'legal battle', 'controversy', 'ban', 'bans', 'policy', 'license debate',
     'copyright', 'no-llm', 'ai-generated code', 'philosophical', 'licensing crisis',
     'gpl', 'mit license', 'legal vs legitimate',
+    
+    // Industry drama
     'drama', 'conflict', 'walking away', 'exits', 'oracle', 'nvidia partnership', 
     'stock price', 'exploding', 'intensifying',
+    
+    // Academic-only research
     '3d reconstruction', 'deepmind', 'research advancement',
+    
+    // People/company drama
     'yann lecun', 'redox', 'ethics debate', 'milestone', 'crisis',
-    'trust collapse', 'pentagon', 'military deal'
+    'trust collapse', 'pentagon', 'military deal',
+    
+    // Hardware news (NOT AI tools)
+    'macbook', 'hardware', 'launch', 'release', 'iphone', 'ipad', 'device',
+    'laptop', 'computer', 'processor', 'chip launch'
 ];
 
 function shouldSkipHeader(title) {
