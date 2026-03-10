@@ -1,48 +1,12 @@
 {
-  "lastUpdate": "2026-03-10T18:40:46.667Z",
-  "totalItems": 16,
+  "lastUpdate": "2026-03-10T18:47:51.500Z",
+  "totalItems": 9,
   "items": [
     {
-      "category": "anthropic",
-      "title": "🔍 Industry Trust Collapse",
-      "description": "**The Uncomfortable Truth:** - Anthropic criticizes OpenAI's military deals - ...while pursuing own Pentagon contracts - NVIDIA distancing from both - **Lesson:** Safety rhetoric ≠ safety reality **For Marcus:** - Build on open frameworks when possible - Understand corporate incentives - Judge by actions, not marketing",
-      "timestamp": "2026-03-10T18:40:46.665Z",
-      "link": null,
-      "subtitle": null,
-      "metrics": null
-    },
-    {
-      "category": "hn",
-      "title": "🛠️ OTHER TRENDING:",
-      "description": "- **JSLinux x86_64 support** (#3 - 212 pts) - Run Linux in browser - **FontCrafter** (#13 - 408 pts) - Still climbing from yesterday - **Florida red light cameras unconstitutional** (#12 - 267 pts, 393 comments) - **Research advice: \"How to win a best paper award\"** (#16 - 68 pts) - Nicholas Carlini",
-      "timestamp": "2026-03-10T18:40:46.665Z",
-      "link": null,
-      "subtitle": null,
-      "metrics": "267 points • 393 comments"
-    },
-    {
-      "category": "anthropic",
-      "title": "🟢 BACKGROUND (Ongoing)",
-      "description": "7. **💡 OpenClaw Ecosystem Monitoring** - GitHub releases, Discord discussions - Your core platform - stay current 8. **🐦 TWITTER TRACKING** (Once browser access restored) - @alexalbert__, @cursor_ai, @AnthropicAI - Real-time signal detection",
-      "timestamp": "2026-03-10T18:40:46.665Z",
-      "link": null,
-      "subtitle": null,
-      "metrics": null
-    },
-    {
-      "category": "anthropic",
-      "title": "HackerNews Velocity",
-      "description": "**🆕 NEW ENTRIES:** - Google Workspace CLI: 372 points (#1) - NEW - MacBook Neo: 1,689 points (#2) - **MASSIVE** - Qwen by Simon W: 612 points (#3) - NEW - NVIDIA pullback: 96 points (#18) - NEW - CLI for AI Agents: 12 points (#11) - **Low score, high relevance** **📈 SUSTAINED GROWTH:** - Anthropic vs OpenAI: 264 → 442 (+178) - NanoGPT Slowrun: 128 → 148 (+20) - Qwen fine-tuning guide: 290 → 312...",
-      "timestamp": "2026-03-10T18:40:46.665Z",
-      "link": null,
-      "subtitle": null,
-      "metrics": null
-    },
-    {
       "category": "breaking",
-      "title": "5️⃣ Open Models Gaining Ground",
+      "title": "Open Models Gaining Ground",
       "description": "- Qwen discussion (612 points, Simon Willison) - Fine-tuning guides popular (312 points) - **Pattern:** Shift toward open alternatives amid big-lab chaos",
-      "timestamp": "2026-03-10T18:40:46.665Z",
+      "timestamp": "2026-03-10T18:47:51.499Z",
       "link": null,
       "subtitle": null,
       "metrics": null
@@ -51,25 +15,7 @@
       "category": "breaking",
       "title": "CLAUDE CODE ECONOMICS STILL CLIMBING",
       "description": "**#19 on HN** - now 15 hours old: - 247 → **343 points** (+96 in 3h, +274 total!) - 178 → **248 comments** (+70) - Started at 69 points this morning - Developers obsessed with AI tool sustainability",
-      "timestamp": "2026-03-10T18:40:46.664Z",
-      "link": null,
-      "subtitle": null,
-      "metrics": null
-    },
-    {
-      "category": "breaking",
-      "title": "📉 OPENCLAW AGED OUT",
-      "description": "DenchClaw and Terminal Use no longer in top 30 after 24+ hours. Both had strong runs: - DenchClaw: Sustained 19+ hours in top 25 - Terminal Use: Sustained 18+ hours in top 25 - **Validation:** Real community interest confirmed",
-      "timestamp": "2026-03-10T18:40:46.664Z",
-      "link": null,
-      "subtitle": null,
-      "metrics": null
-    },
-    {
-      "category": "ecosystem",
-      "title": "📈 OPENCLAW ECOSYSTEM MOMENTUM",
-      "description": "Both projects we tracked are climbing HN rankings: **Terminal Use:** #3 (12 pts) → #9 (71 pts) +59 points **DenchClaw:** #10 (5 pts) → #17 (73 pts) +68 points **Signal:** OpenClaw agent frameworks gaining serious traction. Community validation.",
-      "timestamp": "2026-03-10T18:40:46.664Z",
+      "timestamp": "2026-03-10T18:47:51.498Z",
       "link": null,
       "subtitle": null,
       "metrics": null
@@ -78,52 +24,25 @@
       "category": "ecosystem",
       "title": "DENCHCLAW: YOUR REFERENCE ARCHITECTURE (Show HN - just launched)",
       "description": "**MARCUS: THIS IS YOUR #1 PRIORITY TO STUDY** A YC S24 company (Dench) just open-sourced a **complete production CRM** built entirely on OpenClaw. This is the most important development for your learning path. **What it is:** - Full-featured local CRM powered by OpenClaw - Works as: CRM + coding agent (Cursor-like) + browser automation tool - File-based architecture (DuckDB database) - Talk to you...",
-      "timestamp": "2026-03-10T18:40:46.664Z",
+      "timestamp": "2026-03-10T18:47:51.498Z",
       "link": "https://github.com/DenchHQ/DenchClaw",
       "subtitle": null,
       "metrics": null
     },
     {
       "category": "anthropic",
-      "title": "🛠️ AGENT DEPLOYMENT PLATFORM",
+      "title": "AGENT DEPLOYMENT PLATFORM",
       "description": "YC W26 company launching **agent hosting platform** with filesystem-as-a-service. **What it does:** - Package agents from repo (config.yaml + Dockerfile) - Deploy with CLI (like Vercel) - Filesystem storage separate from task lifecycle - Support for Claude Agent SDK & Codex SDK - Vercel AI SDK v6 compatible **Key innovation: Filesystem-first architecture** - Filesystems persist across agent turns...",
-      "timestamp": "2026-03-10T18:40:46.664Z",
+      "timestamp": "2026-03-10T18:47:51.498Z",
       "link": "https://www.terminaluse.com",
       "subtitle": null,
       "metrics": null
     },
     {
-      "category": "anthropic",
-      "title": "🏛️ ANTHROPIC CLARIFIES MILITARY STANCE",
-      "description": "- **Official statement** on \"Department of War\" collaboration - 343 comments - major community engagement - **Context:** Follows Pentagon labeling them \"supply-chain risk\" - **The dance:** Pursuing defense contracts while managing safety image - **For you:** AI lab politics affect platform reliability/trust",
-      "timestamp": "2026-03-10T18:40:46.664Z",
-      "link": "https://www.anthropic.com/news/where-stand-department-war",
-      "subtitle": null,
-      "metrics": null
-    },
-    {
-      "category": "anthropic",
-      "title": "ANTHROPIC: LABOR MARKET IMPACTS RESEARCH",
-      "description": "- Economic research on AI job displacement - 178 comments - economists + developers engaged - **Pattern:** Anthropic doing thought leadership + PR on same day - **Signal:** AI companies feeling public pressure on societal impact",
-      "timestamp": "2026-03-10T18:40:46.664Z",
-      "link": "https://www.anthropic.com/research/labor-market-impacts",
-      "subtitle": null,
-      "metrics": null
-    },
-    {
-      "category": "anthropic",
-      "title": "💥 PENTAGON LABELS ANTHROPIC \"SUPPLY-CHAIN RISK\"",
-      "description": "- **Formal Pentagon designation** of Anthropic as supply-chain risk - **Escalation:** This follows Dario's \"straight up lies\" criticism of OpenAI - **The irony:** Anthropic pursuing Pentagon deals while criticizing OpenAI for same - **Pentagon's response:** Label them a risk - 95 comments, developing story - **Industry impact:** Trust collapse accelerating",
-      "timestamp": "2026-03-10T18:40:46.664Z",
-      "link": "https://www.wsj.com/politics/national-security/pentagon-formally-labels-anthropic-supply-chain-risk-escalating-conflict-ebdf0523",
-      "subtitle": null,
-      "metrics": null
-    },
-    {
-      "category": "anthropic",
-      "title": "📈 SUSTAINED MOMENTUM",
-      "description": "- **Google Workspace CLI:** 550 → 638 (+88) - **Anthropic vs OpenAI:** 546 → 623 (+77, 329 comments) - **Qwen:** 655 → 687 (+32)",
-      "timestamp": "2026-03-10T18:40:46.664Z",
+      "category": "breaking",
+      "title": "ARXIV AGENT PAPER EXPLOSION (8 papers in 24h)",
+      "description": "Agent research = top academic priority. Critical papers:",
+      "timestamp": "2026-03-10T18:47:51.498Z",
       "link": null,
       "subtitle": null,
       "metrics": null
@@ -132,17 +51,35 @@
       "category": "anthropic",
       "title": "CLAUDE CODE COST DEBATE",
       "description": "**Debunking viral claim** that Anthropic loses $5k per Claude Code user: - Original claim spread widely - This analysis shows the math doesn't add up - Actual costs likely far lower - **Context:** Understanding economics of AI coding tools **Why relevant:** You're learning Claude Code - understanding its business model matters for long-term viability.",
-      "timestamp": "2026-03-10T18:40:46.663Z",
+      "timestamp": "2026-03-10T18:47:51.497Z",
       "link": "https://martinalderson.com/posts/no-it-doesnt-cost-anthropic-5k-per-claude-code-user/",
       "subtitle": null,
       "metrics": null
     },
     {
-      "category": "ecosystem",
-      "title": "🏢 IronEngine: Towards General AI Assistant (arXiv:2603.08425)",
-      "description": "- Author: Xi Mo - **Goal:** General-purpose AI assistant architecture - **Relevance:** Foundational framework research - **Note:** Aligns with OpenClaw's vision",
-      "timestamp": "2026-03-10T18:40:46.663Z",
-      "link": "https://arxiv.org/abs/2603.08425",
+      "category": "arxiv",
+      "title": "Agentic Critical Training (arXiv:2603.08706)",
+      "description": "- Authors: Weize Liu, Minghui Liu, et al. (UMD/Maryland) - **NEW training methodology for agents** - Focus: Critical thinking capabilities - **Relevance:** Training better reasoning agents",
+      "timestamp": "2026-03-10T18:47:51.497Z",
+      "link": "https://arxiv.org/abs/2603.08706",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "arxiv",
+      "title": "RetroAgent: From Solving to Evolving via Retrospective Dual Intrinsic Feedback (arXiv:2603.08561)",
+      "description": "- Authors: Xiaoying Zhang, Zichen Liu, et al. - **Key insight:** Agents that learn from their own past actions - Retrospective self-improvement loop - **Application:** Self-evolving agent systems",
+      "timestamp": "2026-03-10T18:47:51.497Z",
+      "link": "https://arxiv.org/abs/2603.08561",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "arxiv",
+      "title": "Agentic Neurosymbolic Collaboration for Mathematical Discovery (arXiv:2603.08322)",
+      "description": "- Authors: Hai Xia, Carla P. Gomes, Bart Selman, Stefan Szeider - **Breakthrough:** Combining neural + symbolic AI via agents - Focus: Combinatorial design discovery - **Significance:** Agents advancing mathematics research - **Team:** Cornell + Vienna heavyweights",
+      "timestamp": "2026-03-10T18:47:51.497Z",
+      "link": "https://arxiv.org/abs/2603.08322",
       "subtitle": null,
       "metrics": null
     }

@@ -13,41 +13,42 @@ const breakingPath = path.join(__dirname, '../BREAKING.md');
 
 const items = [];
 
-// Keywords that indicate USEFUL content for AI-native engineering
-const SIGNAL_KEYWORDS = [
-    // Tools & frameworks
-    'claude code', 'anthropic', 'openclaw', 'cursor', 'github copilot', 'agent framework',
-    'coding agent', 'ai assistant', 'developer tool', 'ide', 'vscode', 'terminal',
-    
-    // Practical patterns
-    'tutorial', 'guide', 'how to', 'demo', 'show hn', 'open source', 'github',
-    'api', 'integration', 'workflow', 'setup', 'install',
-    
-    // Agent capabilities
-    'tool use', 'function calling', 'multi-agent', 'autonomous', 'self-improving',
-    'code generation', 'debugging', 'testing'
+// Skip these - they're meta-headers, not content
+const SKIP_HEADERS = [
+    'background', 'ongoing', 'velocity', 'other trending', 'trending', 'momentum',
+    'new entries', 'sustained growth', 'breaking', 'summary', 'key insights',
+    'files updated', 'context', 'update files', 'twitter tracking', 'monitoring'
 ];
 
-// Keywords that indicate NOISE (skip these)
+// Keywords that indicate USEFUL content
+const SIGNAL_KEYWORDS = [
+    'claude code', 'anthropic', 'openclaw', 'cursor', 'github copilot', 'agent framework',
+    'coding agent', 'ai assistant', 'developer tool', 'ide', 'vscode', 'terminal',
+    'tutorial', 'guide', 'how to', 'demo', 'show hn', 'open source', 'github',
+    'api', 'integration', 'workflow', 'setup', 'install',
+    'tool use', 'function calling', 'multi-agent', 'autonomous', 'self-improving',
+    'code generation', 'debugging', 'testing', 'arxiv'
+];
+
+// Skip noise
 const NOISE_KEYWORDS = [
-    // Funding & business
     'raises $', '$1b', 'billion', 'funding', 'seed round', 'investment', 'valuation',
-    
-    // Legal & licensing
     'lawsuit', 'legal battle', 'controversy', 'ban', 'bans', 'policy', 'license debate',
     'copyright', 'no-llm', 'ai-generated code', 'philosophical', 'licensing crisis',
     'gpl', 'mit license', 'legal vs legitimate',
-    
-    // Industry drama
     'drama', 'conflict', 'walking away', 'exits', 'oracle', 'nvidia partnership', 
     'stock price', 'exploding', 'intensifying',
-    
-    // Academic-only research (no practical use)
-    '3d reconstruction', 'deepmind', 'research advancement', 'new ai research',
-    
-    // General noise
-    'yann lecun', 'redox', 'ethics debate', 'milestone', 'crisis'
+    '3d reconstruction', 'deepmind', 'research advancement',
+    'yann lecun', 'redox', 'ethics debate', 'milestone', 'crisis',
+    'trust collapse', 'pentagon', 'military deal'
 ];
+
+function shouldSkipHeader(title) {
+    const lower = title.toLowerCase().trim();
+    return SKIP_HEADERS.some(skip => lower.includes(skip)) ||
+           title.match(/^[0-9️⃣]+/) || // Skip numbered headers
+           title.match(/^[🔍🛠️🟢📈🆕💡🐦⚠️📝🔄]/); // Skip emoji-only organizational headers
+}
 
 function isSignal(text, link) {
     const lower = text.toLowerCase();
@@ -56,24 +57,34 @@ function isSignal(text, link) {
     const hasNoise = NOISE_KEYWORDS.some(kw => lower.includes(kw));
     if (hasNoise) return false;
     
-    // ALWAYS keep OpenClaw/Claude Code/Anthropic
-    if (lower.includes('openclaw') || lower.includes('claude code') || lower.includes('anthropic')) {
+    // ALWAYS keep OpenClaw/Claude Code/Anthropic (unless noise)
+    if (lower.includes('openclaw') || lower.includes('claude code')) {
         return true;
     }
     
-    // Check for STRONG signal keywords
+    // Check for signal keywords
     const hasSignal = SIGNAL_KEYWORDS.some(kw => lower.includes(kw));
     
     // Boost if has actionable indicators
     const hasGitHub = link && link.includes('github.com');
     const hasDemo = lower.includes('demo') || lower.includes('show hn');
     const hasTutorial = lower.includes('tutorial') || lower.includes('guide') || lower.includes('how to');
+    const hasArxiv = lower.includes('arxiv');
     
-    // Keep if: (has signal AND actionable) OR (has strong keywords)
-    return (hasSignal && (hasGitHub || hasDemo || hasTutorial)) ||
-           lower.includes('agent framework') ||
-           lower.includes('coding agent') ||
-           lower.includes('developer tool');
+    // Keep if: has signal AND (actionable OR arxiv)
+    return hasSignal && (hasGitHub || hasDemo || hasTutorial || hasArxiv);
+}
+
+function cleanTitle(title) {
+    // Remove emoji, markdown bold, HN positions, numbers
+    let cleaned = title
+        .replace(/🚨|📄|🔥|🤖|🌐|💰|🚫|🎨|🧠|⚖️|📊|🔬|🧮|🛡️|🤝|🔍|🛠️|🟢|📈|🆕|💡|🐦|⚠️|📝|🔄/g, '')
+        .replace(/\*\*/g, '')
+        .replace(/\(#\d+.*?\)/g, '')
+        .replace(/^[0-9️⃣]+\.?\s*/g, '')
+        .trim();
+    
+    return cleaned;
 }
 
 function parseResearchMarkdown(content, source) {
@@ -85,10 +96,13 @@ function parseResearchMarkdown(content, source) {
         
         const headerMatch = line.match(/^###\s+(.+)/);
         if (headerMatch) {
-            let title = headerMatch[1];
-            title = title.replace(/🚨|📄|🔥|🤖|🌐|💰|🚫|🎨|🧠|⚖️|📊|🔬/g, '').trim();
-            title = title.replace(/\*\*/g, '').trim();
-            title = title.replace(/\(#\d+.*?\)/g, '').trim();
+            let title = cleanTitle(headerMatch[1]);
+            
+            // Skip meta headers
+            if (shouldSkipHeader(title) || title.length < 5) {
+                i++;
+                continue;
+            }
             
             let description = '';
             let link = null;
@@ -132,7 +146,7 @@ function parseResearchMarkdown(content, source) {
                 i++;
             }
             
-            // FILTER: Only include if it passes signal test
+            // FILTER: Only include if passes signal test
             const fullText = title + ' ' + description;
             if (title && description.length > 10 && isSignal(fullText, link)) {
                 items.push({
@@ -180,11 +194,12 @@ items.sort((a, b) => {
 const output = {
     lastUpdate: new Date().toISOString(),
     totalItems: items.length,
-    items: items.slice(0, 50) // Top 50 RELEVANT items only
+    items: items.slice(0, 50)
 };
 
 fs.writeFileSync(path.join(__dirname, 'data.json'), JSON.stringify(output, null, 2));
-console.log(`✅ Generated data.json with ${output.items.length} ACTIONABLE items (noise filtered)`);
+console.log(`✅ Generated data.json with ${output.items.length} ACTIONABLE items`);
+console.log(`Sample titles: ${items.slice(0, 5).map(i => i.title).join(', ')}`);
 EOF
 
-echo "Dashboard updated with signal-only filtering!"
+echo "Dashboard updated!"
