@@ -206,8 +206,17 @@ try {
     console.error('Could not parse BREAKING.md:', error.message);
 }
 
+// Deduplicate by link (keep first occurrence)
+const seen = new Set();
+const uniqueItems = items.filter(item => {
+    if (!item.link) return true; // Keep items without links
+    if (seen.has(item.link)) return false;
+    seen.add(item.link);
+    return true;
+});
+
 // Sort by timestamp (newest first)
-items.sort((a, b) => {
+uniqueItems.sort((a, b) => {
     const dateA = new Date(a.timestamp);
     const dateB = new Date(b.timestamp);
     return dateB - dateA;
@@ -215,8 +224,8 @@ items.sort((a, b) => {
 
 const output = {
     lastUpdate: new Date().toISOString(),
-    totalItems: items.length,
-    items: items.slice(0, 50)
+    totalItems: uniqueItems.length,
+    items: uniqueItems.slice(0, 50)
 };
 
 fs.writeFileSync(path.join(__dirname, 'data.json'), JSON.stringify(output, null, 2));
