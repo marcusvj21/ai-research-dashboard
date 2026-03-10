@@ -1,74 +1,534 @@
 {
-  "lastUpdate": "2026-03-10T18:32:22.999Z",
+  "lastUpdate": "2026-03-10T18:33:10.118Z",
+  "totalItems": 59,
   "items": [
     {
+      "category": "hn",
+      "title": "🆕 BREAKING THEME: AI + Licensing = Legal Crisis",
+      "description": "**Two licensing stories in top 11** — this is not coincidence: 1. **Chardet relicensing controversy** (#11, 212 pts, 134 comments) - Direct challenge to project relicensing authority - Community calling out license changes 2. **AI-assisted relicensing** (#3, 164 pts, 146 comments) - Using AI to rewrite code = license laundering? - Open source community divided **The connection:** AI enables legal...",
+      "timestamp": "2026-03-10T18:33:10.115Z",
+      "link": null,
+      "subtitle": null,
+      "metrics": "164 points • 146 comments"
+    },
+    {
+      "category": "anthropic",
+      "title": "Critical Developments",
+      "description": "1. **🏢 AI Industry Instability** - **NVIDIA pulling back** from OpenAI & Anthropic - Anthropic vs OpenAI conflict sustained (442 points, 240 comments) - **Signal:** Major instability in AI funding/partnerships 2. **🤖 Agent Safety = Top Research Priority** - **3 new papers in 12 hours** on agent robustness - Adversarial attacks, governance, formal methods - **Pattern:** Safety research accelerati...",
+      "timestamp": "2026-03-10T18:33:10.115Z",
+      "link": null,
+      "subtitle": null,
+      "metrics": "442 points • 240 comments"
+    },
+    {
       "category": "breaking",
-      "title": "🚫 REDOX NO-LLM CONTROVERSY INTENSIFYING",
-      "description": "**#18 on HN** - 255 points, 261 comments (5h old)\n**Link:** https://gitlab.redox-os.org/redox-os/redox/-/blob/master/CONTRIBUTING.md\n\n- **255 points** (up from 163 = +92)\n- **261 comments** (up from 133 = +128!)\n- Rust-based OS bans AI-generated code\n- Community deeply divided\n- **Pattern:** Open so...",
-      "timestamp": "2026-03-10T18:32:22.998Z",
+      "title": "🎯 Meta-Patterns (12-Hour View)",
+      "description": "**Industry Chaos:** - Hardware kingmaker (NVIDIA) withdrawing - Top AI labs in public conflict - Trust erosion across the sector - **Implication:** Diversify dependencies, don't rely on any single lab **Agent Safety Explosion:** - Governance frameworks (Dual-Helix) - Adversarial robustness (Jacobian regularization) - Cross-modal attack protection - **Reality:** Production agents need formal safety...",
+      "timestamp": "2026-03-10T18:33:10.115Z",
+      "link": null,
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "anthropic",
+      "title": "🔍 Industry Trust Collapse",
+      "description": "**The Uncomfortable Truth:** - Anthropic criticizes OpenAI's military deals - ...while pursuing own Pentagon contracts - NVIDIA distancing from both - **Lesson:** Safety rhetoric ≠ safety reality **For Marcus:** - Build on open frameworks when possible - Understand corporate incentives - Judge by actions, not marketing",
+      "timestamp": "2026-03-10T18:33:10.115Z",
+      "link": null,
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "breaking",
+      "title": "📱 BLUESKY CEO STEPPING DOWN",
+      "description": "- Jay Graber stepping down as Bluesky CEO - Major leadership change in decentralized social media - 227 comments - community speculation about direction",
+      "timestamp": "2026-03-10T18:33:10.115Z",
+      "link": "https://bsky.social/about/blog/03-09-2026-a-new-chapter-for-bluesky",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "breaking",
+      "title": "🕵️ META PRIVACY SCANDAL",
+      "description": "- Workers report watching Ray-Ban Meta footage of people in bathrooms - Wearable AI glasses = massive privacy concerns - **Pattern:** AI + always-on recording = surveillance risks",
+      "timestamp": "2026-03-10T18:33:10.115Z",
+      "link": "https://arstechnica.com/gadgets/2026/03/workers-report-watching-ray-ban-meta-shot-footage-of-people-using-the-bathroom/",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "breaking",
+      "title": "ORACLE DATA CENTER DEBT WARNING",
+      "description": "- \"Building yesterday's data centers with tomorrow's debt\" - Financial concerns about Oracle's AI infrastructure bet - **Industry signal:** Data center buildout = risky capital allocation?",
+      "timestamp": "2026-03-10T18:33:10.115Z",
+      "link": "https://www.cnbc.com/2026/03/09/oracle-is-building-yesterdays-data-centers-with-tomorrows-debt.html",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "breaking",
+      "title": "🚁 DARPA X-76",
+      "description": "- \"Speed of jet, freedom of helicopter\" - Advanced vertical takeoff aircraft - Defense innovation continuing",
+      "timestamp": "2026-03-10T18:33:10.115Z",
+      "link": "https://www.darpa.mil/news/2026/darpa-new-x-76-speed-of-jet-freedom-of-helicopter",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "hn",
+      "title": "🛠️ OTHER TRENDING:",
+      "description": "- **JSLinux x86_64 support** (#3 - 212 pts) - Run Linux in browser - **FontCrafter** (#13 - 408 pts) - Still climbing from yesterday - **Florida red light cameras unconstitutional** (#12 - 267 pts, 393 comments) - **Research advice: \"How to win a best paper award\"** (#16 - 68 pts) - Nicholas Carlini",
+      "timestamp": "2026-03-10T18:33:10.115Z",
+      "link": null,
+      "subtitle": null,
+      "metrics": "267 points • 393 comments"
+    },
+    {
+      "category": "breaking",
+      "title": "🔴 CRITICAL (Today)",
+      "description": "1. **⚖️ READ: \"Is Legal the Same as Legitimate?\"** ← MOST URGENT - Essay: https://writings.hongminhee.org/2026/03/legal-vs-legitimate/ - HN discussion (312 comments): https://news.ycombinator.com/item?id=47310160 - **Core question:** Can AI rewrite GPL code as MIT? Legal vs. ethical? - **Why critical:** Defines AI-native development practices - **Action:** Read essay + top 50 HN comments - **Backg...",
+      "timestamp": "2026-03-10T18:33:10.115Z",
+      "link": "https://writings.hongminhee.org/2026/03/legal-vs-legitimate/",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "hn",
+      "title": "🟡 HIGH (This Week)",
+      "description": "4. **🛡️ AGENT SAFETY DEEP DIVE** - Robustness via Jacobian Regularization: http://arxiv.org/abs/2603.04378v1 - Dual-Helix Governance: http://arxiv.org/abs/2603.04390v1 - Web Agent Security: http://arxiv.org/abs/2603.04364v1 - **Theme:** Production agents need formal safety 5. **🐉 QWEN DEVELOPMENTS** - Simon Willison's analysis: https://simonwillison.net/2026/Mar/4/qwen/ - 612 points, 274 comment...",
+      "timestamp": "2026-03-10T18:33:10.115Z",
+      "link": "http://arxiv.org/abs/2603.04378v1",
+      "subtitle": null,
+      "metrics": "612 points • 274 comments"
+    },
+    {
+      "category": "anthropic",
+      "title": "🟢 BACKGROUND (Ongoing)",
+      "description": "7. **💡 OpenClaw Ecosystem Monitoring** - GitHub releases, Discord discussions - Your core platform - stay current 8. **🐦 TWITTER TRACKING** (Once browser access restored) - @alexalbert__, @cursor_ai, @AnthropicAI - Real-time signal detection",
+      "timestamp": "2026-03-10T18:33:10.115Z",
+      "link": null,
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "anthropic",
+      "title": "HackerNews Velocity",
+      "description": "**🆕 NEW ENTRIES:** - Google Workspace CLI: 372 points (#1) - NEW - MacBook Neo: 1,689 points (#2) - **MASSIVE** - Qwen by Simon W: 612 points (#3) - NEW - NVIDIA pullback: 96 points (#18) - NEW - CLI for AI Agents: 12 points (#11) - **Low score, high relevance** **📈 SUSTAINED GROWTH:** - Anthropic vs OpenAI: 264 → 442 (+178) - NanoGPT Slowrun: 128 → 148 (+20) - Qwen fine-tuning guide: 290 → 312...",
+      "timestamp": "2026-03-10T18:33:10.115Z",
+      "link": null,
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "breaking",
+      "title": "arXiv Activity (Last 24h)",
+      "description": "**🤖 Agent Papers Surge:** - 3 robustness/safety papers in 12 hours - AgentIR (research agents) - Governance frameworks - **Total agent-relevant papers:** 6+ **🎯 Research Themes:** 1. Agent robustness (mathematical frameworks) 2. Adversarial safety (multi-modal attacks) 3. Governance approaches 4. RL with interpretability 5. Evaluation benchmarks",
+      "timestamp": "2026-03-10T18:33:10.115Z",
+      "link": null,
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "anthropic",
+      "title": "Community Signals",
+      "description": "**🔥 Hot Topics (48h):** 1. **Industry instability** (NVIDIA, Anthropic/OpenAI conflict) 2. **Agent tooling** (CLI design, Google Workspace) 3. **Agent safety** (multiple papers, active research) 4. **Open models** (Qwen momentum, fine-tuning guides) 5. **Hardware** (MacBook Neo, AI chips) **📊 Sentiment Shift:** - Growing skepticism of AI lab safety claims - Interest in open alternatives (Qwen) -...",
+      "timestamp": "2026-03-10T18:33:10.115Z",
+      "link": null,
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "anthropic",
+      "title": "1️⃣ Industry Instability Accelerating",
+      "description": "- NVIDIA (hardware kingmaker) pulling back from top AI labs - Public conflict between Anthropic and OpenAI - Trust erosion across the sector - **Action:** Diversify, build on open platforms where possible",
+      "timestamp": "2026-03-10T18:33:10.115Z",
+      "link": null,
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "breaking",
+      "title": "2️⃣ Agent Safety Now Formal Research Priority",
+      "description": "- 3 papers in 12 hours on robustness/safety - Mathematical frameworks, governance, adversarial defense - **Reality check:** Production agents need serious safety work - **For you:** Study these papers before deploying production agents",
+      "timestamp": "2026-03-10T18:33:10.115Z",
+      "link": null,
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "breaking",
+      "title": "3️⃣ Tooling Evolution: Agent-First Design",
+      "description": "- \"Rewrite your CLI for AI agents\" (#11 on HN) - Google Workspace CLI (#1) - **Shift:** Tools designed for agent consumption, not just humans - **Opportunity:** Learn to build agent-friendly interfaces",
+      "timestamp": "2026-03-10T18:33:10.115Z",
+      "link": null,
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "breaking",
+      "title": "4️⃣ Research Agents = Validated Direction",
+      "description": "- AgentIR paper confirms academic interest - You're building what cutting-edge research is formalizing - **Confidence:** Your AI-native engineering path is correct",
+      "timestamp": "2026-03-10T18:33:10.115Z",
+      "link": null,
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "breaking",
+      "title": "5️⃣ Open Models Gaining Ground",
+      "description": "- Qwen discussion (612 points, Simon Willison) - Fine-tuning guides popular (312 points) - **Pattern:** Shift toward open alternatives amid big-lab chaos",
+      "timestamp": "2026-03-10T18:33:10.115Z",
+      "link": null,
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "breaking",
+      "title": "REDOX OS ADOPTS STRICT NO-LLM POLICY",
+      "description": "**Rust-based OS project bans AI-generated code:** - Certificate of Origin policy implemented - **Strict prohibition on LLM-generated contributions** - 133 comments in 2 hours - controversial decision - **Connected to:** Licensing crisis (see below) **Community split:** - Some applaud copyright/quality control - Others see it as futile/anti-progress - **Pattern:** Projects establishing AI code poli...",
+      "timestamp": "2026-03-10T18:33:10.114Z",
       "link": "https://gitlab.redox-os.org/redox-os/redox/-/blob/master/CONTRIBUTING.md",
       "subtitle": null,
-      "metrics": "255 points • 261 comments"
+      "metrics": null
     },
     {
       "category": "breaking",
-      "title": "💰 CLAUDE CODE ECONOMICS: +274 POINTS TOTAL",
-      "description": "**#19 on HN** - 343 points, 248 comments (15h old)\n**Link:** https://martinalderson.com/posts/no-it-doesnt-cost-anthropic-5k-per-claude-code-user/\n\n- Started at **69 points** this morning\n- Now **343 points** (+274 total!)\n- **248 comments** (up from 21 = +227!)\n- Debunking $5k/user cost claim\n\n**Si...",
-      "timestamp": "2026-03-10T18:32:22.998Z",
+      "title": "NEW: PAYING ARTISTS ROYALTIES FOR AI-GENERATED ART",
+      "description": "**Kapwing's experiment** - paying royalties to artists whose work trained the AI models: - Practical learnings from implementation - 91 comments - community engaged - **Connected to:** Legal vs Legitimate licensing crisis (see below) - **Pattern:** Companies wrestling with AI ethics in practice **Why relevant:** AI licensing/compensation models in development. Watch this space.",
+      "timestamp": "2026-03-10T18:33:10.114Z",
+      "link": "https://www.kapwing.com/blog/learnings-from-paying-artists-royalties-for-ai-generated-art/",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "anthropic",
+      "title": "OPENAI WALKING AWAY FROM ORACLE STARGATE DEAL",
+      "description": "**MAJOR INDUSTRY SHAKEUP** OpenAI is **abandoning** plans to expand its Stargate data center partnership with Oracle. This follows: - Last week: NVIDIA pulling back from OpenAI & Anthropic - Last week: Anthropic vs OpenAI public conflict - **Pattern:** Infrastructure partnerships collapsing across the industry **CNBC headline context:** \"Oracle is building yesterday's data centers with tomorrow's...",
+      "timestamp": "2026-03-10T18:33:10.114Z",
+      "link": "https://www.cnbc.com/2026/03/09/oracle-is-building-yesterdays-data-centers-with-tomorrows-debt.html",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "anthropic",
+      "title": "CLAUDE CODE COST DEBATE",
+      "description": "**Debunking viral claim** that Anthropic loses $5k per Claude Code user: - Original claim spread widely - This analysis shows the math doesn't add up - Actual costs likely far lower - **Context:** Understanding economics of AI coding tools **Why relevant:** You're learning Claude Code - understanding its business model matters for long-term viability.",
+      "timestamp": "2026-03-10T18:33:10.114Z",
       "link": "https://martinalderson.com/posts/no-it-doesnt-cost-anthropic-5k-per-claude-code-user/",
       "subtitle": null,
-      "metrics": "343 points • 248 comments"
+      "metrics": null
+    },
+    {
+      "category": "arxiv",
+      "title": "Agentic Critical Training (arXiv:2603.08706)",
+      "description": "- Authors: Weize Liu, Minghui Liu, et al. (UMD/Maryland) - **NEW training methodology for agents** - Focus: Critical thinking capabilities - **Relevance:** Training better reasoning agents",
+      "timestamp": "2026-03-10T18:33:10.114Z",
+      "link": "https://arxiv.org/abs/2603.08706",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "arxiv",
+      "title": "🔄 RetroAgent: From Solving to Evolving via Retrospective Dual Intrinsic Feedback (arXiv:2603.08561)",
+      "description": "- Authors: Xiaoying Zhang, Zichen Liu, et al. - **Key insight:** Agents that learn from their own past actions - Retrospective self-improvement loop - **Application:** Self-evolving agent systems",
+      "timestamp": "2026-03-10T18:33:10.114Z",
+      "link": "https://arxiv.org/abs/2603.08561",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "arxiv",
+      "title": "🏢 IronEngine: Towards General AI Assistant (arXiv:2603.08425)",
+      "description": "- Author: Xi Mo - **Goal:** General-purpose AI assistant architecture - **Relevance:** Foundational framework research - **Note:** Aligns with OpenClaw's vision",
+      "timestamp": "2026-03-10T18:33:10.114Z",
+      "link": "https://arxiv.org/abs/2603.08425",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "arxiv",
+      "title": "🗺️ A Hierarchical Error-Corrective Graph Framework for Autonomous Agents with LLM-Based Action Generation (arXiv:2603.08388)",
+      "description": "- Authors: Cong Cao, Jingyao Zhang, Kun Tong - **Innovation:** Error correction via graph structures - Hierarchical agent action planning - **Application:** More reliable autonomous agents",
+      "timestamp": "2026-03-10T18:33:10.114Z",
+      "link": "https://arxiv.org/abs/2603.08388",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "arxiv",
+      "title": "🧮 M³-ACE: Rectifying Visual Perception in Multimodal Math Reasoning via Multi-Agentic Context Engineering (arXiv:2603.08369)",
+      "description": "- Authors: Peijin Xie, Zhen Xu, Bingquan Liu, Baoxun Wang - **Focus:** Multi-agent collaboration for math problems - Visual + language reasoning combined - **Pattern:** Multi-agent systems for complex tasks",
+      "timestamp": "2026-03-10T18:33:10.114Z",
+      "link": "https://arxiv.org/abs/2603.08369",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "arxiv",
+      "title": "Agentic Neurosymbolic Collaboration for Mathematical Discovery (arXiv:2603.08322)",
+      "description": "- Authors: Hai Xia, Carla P. Gomes, Bart Selman, Stefan Szeider - **Breakthrough:** Combining neural + symbolic AI via agents - Focus: Combinatorial design discovery - **Significance:** Agents advancing mathematics research - **Team:** Cornell + Vienna heavyweights",
+      "timestamp": "2026-03-10T18:33:10.114Z",
+      "link": "https://arxiv.org/abs/2603.08322",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "arxiv",
+      "title": "OfficeQA Pro: An Enterprise Benchmark for End-to-End Grounded Reasoning (arXiv:2603.08655)",
+      "description": "- Authors: Team from Google/Stanford (Krista Opsahl-Ong, Matei Zaharia, et al.) - **Enterprise AI evaluation benchmark** - Tests end-to-end reasoning in office scenarios - **Relevance:** Real-world agent evaluation",
+      "timestamp": "2026-03-10T18:33:10.114Z",
+      "link": "https://arxiv.org/abs/2603.08655",
+      "subtitle": null,
+      "metrics": null
     },
     {
       "category": "breaking",
-      "title": "LICENSING CRISIS: 523/523 MILESTONE",
-      "description": "**#24 on HN** - 23 hours old, still active\n**Link:** https://writings.hongminhee.org/2026/03/legal-vs-legitimate/\n\n- **523 points, 523 COMMENTS**\n- **Unusual:** Exact same number of points and comments\n- Question: Can AI rewrite GPL code as MIT?\n- THE sustained AI conversation for 23+ hours\n\n---...",
-      "timestamp": "2026-03-10T18:32:22.998Z",
-      "link": "https://writings.hongminhee.org/2026/03/legal-vs-legitimate/",
+      "title": "🚀 YANN LECUN $1B EXPLODING",
+      "description": "**#8 on HN** - massive growth in 3 hours: - 60 → **218 points** (+158!) - 41 → **125 comments** (+84) - Europe's largest ever seed round - Meta's Chief AI Scientist going independent - **Status:** Story gaining major traction",
+      "timestamp": "2026-03-10T18:33:10.114Z",
+      "link": null,
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "breaking",
+      "title": "REDOX NO-LLM CONTROVERSY INTENSIFYING",
+      "description": "**#18 on HN** - sustained engagement: - 163 → **255 points** (+92) - 133 → **261 comments** (+128!) - Community deeply divided on AI code policies - **Pattern:** Projects establishing AI code policies = hot debate",
+      "timestamp": "2026-03-10T18:33:10.114Z",
+      "link": null,
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "breaking",
+      "title": "CLAUDE CODE ECONOMICS STILL CLIMBING",
+      "description": "**#19 on HN** - now 15 hours old: - 247 → **343 points** (+96 in 3h, +274 total!) - 178 → **248 comments** (+70) - Started at 69 points this morning - Developers obsessed with AI tool sustainability",
+      "timestamp": "2026-03-10T18:33:10.114Z",
+      "link": null,
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "breaking",
+      "title": "LICENSING CRISIS HITS 523/523 MILESTONE",
+      "description": "**#24 on HN** - 23 hours old, still going: - 484 → **523 points** (+39) - 500 → **523 COMMENTS** (+23) - **Unusual:** Same number of points and comments - THE sustained AI conversation",
+      "timestamp": "2026-03-10T18:33:10.114Z",
+      "link": null,
       "subtitle": null,
       "metrics": null
     },
     {
       "category": "breaking",
       "title": "🎥 NEW: DEEPMIND 3D RECONSTRUCTION",
-      "description": "**#14 on HN** - 94 points, 24 comments\n**Link:** https://loger-project.github.io\n\n- **LoGeR:** 3D reconstruction from extremely long videos\n- DeepMind + UC Berkeley collaboration\n- New AI research advancement\n\n---...",
-      "timestamp": "2026-03-10T18:32:22.998Z",
+      "description": "**LoGeR - #14 on HN** (57 → 94 points): - 3D reconstruction from extremely long videos - DeepMind + UC Berkeley collaboration - Link: https://loger-project.github.io - 24 comments in 8 hours",
+      "timestamp": "2026-03-10T18:33:10.114Z",
       "link": "https://loger-project.github.io",
       "subtitle": null,
-      "metrics": "94 points • 24 comments"
+      "metrics": null
     },
     {
       "category": "breaking",
-      "title": "📉 OPENCLAW 24-HOUR RUN COMPLETE",
-      "description": "DenchClaw and Terminal Use aged out of top 30 after 24+ hours:\n- Both sustained 18-19 hours in top 25\n- **Validation achieved:** Real community interest confirmed\n\n---...",
-      "timestamp": "2026-03-10T18:32:22.998Z",
+      "title": "📉 OPENCLAW AGED OUT",
+      "description": "DenchClaw and Terminal Use no longer in top 30 after 24+ hours. Both had strong runs: - DenchClaw: Sustained 19+ hours in top 25 - Terminal Use: Sustained 18+ hours in top 25 - **Validation:** Real community interest confirmed",
+      "timestamp": "2026-03-10T18:33:10.114Z",
       "link": null,
       "subtitle": null,
       "metrics": null
     },
     {
-      "category": "arxiv",
-      "title": "arXiv Status",
-      "description": "No new AI/agent papers since this morning's 6-paper wave:\n- Agentic Critical Training\n- RetroAgent (self-evolving)\n- Agentic Neurosymbolic Collaboration (Cornell/Vienna)\n- + 3 more (see RESEARCH.md)\n\n---...",
-      "timestamp": "2026-03-10T18:32:22.998Z",
+      "category": "hn",
+      "title": "LICENSING CRISIS HITS 500 COMMENTS",
+      "description": "**Legal vs Legitimate:** - 398 → 443 → **484 points** (+41 in 3h, +86 total) - 439 → 474 → **500 COMMENTS** (+26 in 3h, +61 total) - **Still #14 after 20 hours** - **MILESTONE:** 500 comments = massive sustained engagement - **Reality:** This is THE defining AI debate right now **Claude Code Economics EXPLODING:** - 69 → 161 → **247 points** (+86 in 3h, +178 total!) - 21 → 104 → **178 comments** (...",
+      "timestamp": "2026-03-10T18:33:10.114Z",
+      "link": null,
+      "subtitle": null,
+      "metrics": "105 points • 73 comments"
+    },
+    {
+      "category": "hn",
+      "title": "🆕 NEW: Two Major AI Stories (Last 3 Hours)",
+      "description": "**Yann LeCun $1B Seed Round (#5):** - Europe's largest ever seed round - 60 points, 41 comments in <1 hour - **Breaking news** - details emerging **Redox OS No-LLM Policy (#2):** - 163 points, 133 comments in 2 hours - Rust OS bans AI-generated code - Community deeply divided",
+      "timestamp": "2026-03-10T18:33:10.114Z",
+      "link": null,
+      "subtitle": null,
+      "metrics": "163 points • 133 comments"
+    },
+    {
+      "category": "breaking",
+      "title": "\"IS LEGAL THE SAME AS LEGITIMATE?\"",
+      "description": "**THE LICENSING DEBATE IS REACHING CRITICAL MASS** This essay directly addresses the AI code relicensing controversy we tracked yesterday. Now #4 on HN with massive engagement. **Key question:** Can you use AI to rewrite GPL code and release it under MIT? Is that *legal*? Is it *legitimate*? **Why this matters for you, Marcus:** - You're building with AI tools that generate code - Understanding li...",
+      "timestamp": "2026-03-10T18:33:10.114Z",
+      "link": "https://writings.hongminhee.org/2026/03/legal-vs-legitimate/",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "breaking",
+      "title": "💔 SIR TONY HOARE HAS DIED",
+      "description": "Computer science legend Tony Hoare passed away: - Invented **Quicksort** (1960) - Created **Hoare logic** (formal verification) - Developed **CSP** (Communicating Sequential Processes) - Turing Award winner (1980) - Famous quote: \"Null references: my billion-dollar mistake\" **Context:** CSP influenced Go's concurrency model, Hoare logic is foundational to formal methods. A giant in CS theory and p...",
+      "timestamp": "2026-03-10T18:33:10.114Z",
+      "link": "http://lefenetrou.blogspot.com/2026/03/in-memoriam-tony-hoare.html",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "breaking",
+      "title": "📈 OPENCLAW ECOSYSTEM MOMENTUM",
+      "description": "Both projects we tracked are climbing HN rankings: **Terminal Use:** #3 (12 pts) → #9 (71 pts) +59 points **DenchClaw:** #10 (5 pts) → #17 (73 pts) +68 points **Signal:** OpenClaw agent frameworks gaining serious traction. Community validation.",
+      "timestamp": "2026-03-10T18:33:10.114Z",
       "link": null,
       "subtitle": null,
       "metrics": null
     },
     {
       "category": "breaking",
-      "title": "🎯 Key Insights (14:36 UTC)",
-      "description": "1. **Yann LeCun $1B = biggest growth** (+158 points in 3 hours)\n2. **Redox AI ban = community split** (261 comments, 128 in 3h)\n3. **523/523 = rare HN moment** (same points and comments)\n4. **Claude Code economics = sustained interest** (+274 total growth)\n5. **Licensing debate = 23+ hours sustained...",
-      "timestamp": "2026-03-10T18:32:22.998Z",
+      "title": "DENCHCLAW: YOUR REFERENCE ARCHITECTURE (Show HN - just launched)",
+      "description": "**MARCUS: THIS IS YOUR #1 PRIORITY TO STUDY** A YC S24 company (Dench) just open-sourced a **complete production CRM** built entirely on OpenClaw. This is the most important development for your learning path. **What it is:** - Full-featured local CRM powered by OpenClaw - Works as: CRM + coding agent (Cursor-like) + browser automation tool - File-based architecture (DuckDB database) - Talk to you...",
+      "timestamp": "2026-03-10T18:33:10.114Z",
+      "link": "https://github.com/DenchHQ/DenchClaw",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "anthropic",
+      "title": "🛠️ AGENT DEPLOYMENT PLATFORM",
+      "description": "YC W26 company launching **agent hosting platform** with filesystem-as-a-service. **What it does:** - Package agents from repo (config.yaml + Dockerfile) - Deploy with CLI (like Vercel) - Filesystem storage separate from task lifecycle - Support for Claude Agent SDK & Codex SDK - Vercel AI SDK v6 compatible **Key innovation: Filesystem-first architecture** - Filesystems persist across agent turns...",
+      "timestamp": "2026-03-10T18:33:10.114Z",
+      "link": "https://www.terminaluse.com",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "anthropic",
+      "title": "🏛️ ANTHROPIC CLARIFIES MILITARY STANCE",
+      "description": "- **Official statement** on \"Department of War\" collaboration - 343 comments - major community engagement - **Context:** Follows Pentagon labeling them \"supply-chain risk\" - **The dance:** Pursuing defense contracts while managing safety image - **For you:** AI lab politics affect platform reliability/trust",
+      "timestamp": "2026-03-10T18:33:10.114Z",
+      "link": "https://www.anthropic.com/news/where-stand-department-war",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "anthropic",
+      "title": "ANTHROPIC: LABOR MARKET IMPACTS RESEARCH",
+      "description": "- Economic research on AI job displacement - 178 comments - economists + developers engaged - **Pattern:** Anthropic doing thought leadership + PR on same day - **Signal:** AI companies feeling public pressure on societal impact",
+      "timestamp": "2026-03-10T18:33:10.114Z",
+      "link": "https://www.anthropic.com/research/labor-market-impacts",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "breaking",
+      "title": "ARXIV AGENT PAPER EXPLOSION (8 papers in 24h)",
+      "description": "Agent research = top academic priority. Critical papers:",
+      "timestamp": "2026-03-10T18:33:10.114Z",
       "link": null,
       "subtitle": null,
       "metrics": null
     },
     {
       "category": "breaking",
-      "title": "🚀 YANN LECUN $1B EXPLODING (+158 IN 3 HOURS!)",
-      "description": "**#8 on HN** - massive momentum\n**Link:** https://www.ft.com/content/e5245ec3-1a58-4eff-ab58-480b6259aaf1\n\n- **218 points** (up from 60) - **+158 in 3 hours!**\n- **125 comments** (up from 41) - **+84**\n- **$1 billion seed round** - Europe's largest ever\n- Meta's Chief AI Scientist launching independ...",
-      "timestamp": "2026-03-10T18:32:22.997Z",
+      "title": "⚡ GPT-5.4 RELEASE",
+      "description": "- **MAJOR OpenAI model release** - 331 comments in 2 hours = massive community engagement - **Status:** Just launched, details emerging - **For you:** New AI capabilities to understand and integrate",
+      "timestamp": "2026-03-10T18:33:10.114Z",
+      "link": "https://openai.com/index/introducing-gpt-5-4/",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "anthropic",
+      "title": "💥 PENTAGON LABELS ANTHROPIC \"SUPPLY-CHAIN RISK\"",
+      "description": "- **Formal Pentagon designation** of Anthropic as supply-chain risk - **Escalation:** This follows Dario's \"straight up lies\" criticism of OpenAI - **The irony:** Anthropic pursuing Pentagon deals while criticizing OpenAI for same - **Pentagon's response:** Label them a risk - 95 comments, developing story - **Industry impact:** Trust collapse accelerating",
+      "timestamp": "2026-03-10T18:33:10.114Z",
+      "link": "https://www.wsj.com/politics/national-security/pentagon-formally-labels-anthropic-supply-chain-risk-escalating-conflict-ebdf0523",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "breaking",
+      "title": "⚠️ WIKIPEDIA COMPROMISED",
+      "description": "- **Mass admin account compromise** - Wikipedia in read-only mode - 94 comments in 2 hours - **Pattern:** Major security breach affecting critical infrastructure",
+      "timestamp": "2026-03-10T18:33:10.114Z",
+      "link": "https://www.wikimediastatus.net",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "breaking",
+      "title": "💀 \"Clinejection\": GitHub Issue Title Compromised 4K Machines",
+      "description": "- **AI tool security exploit** - Malicious GitHub issue title infected developer machines - AI coding assistants executing harmful commands - **CRITICAL FOR YOU:** Risk of AI tools in development workflow - **Pattern:** AI agents = new attack surface",
+      "timestamp": "2026-03-10T18:33:10.114Z",
+      "link": "https://grith.ai/blog/clinejection-when-your-ai-tool-installs-another",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "breaking",
+      "title": "\"Intelligence is a Commodity. Context is the Real AI Moat\"",
+      "description": "- Strategic analysis of AI value - 48 comments - **Thesis:** Raw intelligence commoditized, context/integration is the value - **Relevance:** Validates agent + context approach",
+      "timestamp": "2026-03-10T18:33:10.114Z",
+      "link": "https://adlrocha.substack.com/p/adlrocha-intelligence-is-a-commodity",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "breaking",
+      "title": "⚠️ MAJOR THEME: AI + Licensing = Legal Chaos",
+      "description": "Two related stories now in top 11, both gaining massive traction:",
+      "timestamp": "2026-03-10T18:33:10.114Z",
+      "link": null,
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "anthropic",
+      "title": "📈 SUSTAINED MOMENTUM",
+      "description": "- **Google Workspace CLI:** 550 → 638 (+88) - **Anthropic vs OpenAI:** 546 → 623 (+77, 329 comments) - **Qwen:** 655 → 687 (+32)",
+      "timestamp": "2026-03-10T18:33:10.114Z",
+      "link": null,
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "hn",
+      "title": "📈 MOMENTUM SHIFTS (3 Hours)",
+      "description": "**Strong Growth:** - Google Workspace CLI: 372 → 550 (+178 points, +47 comments) - Anthropic vs OpenAI: 442 → 546 (+104 points, +61 comments) - NVIDIA pullback: 96 → 158 (+62 points, +34 comments) - MacBook Neo: 1,689 → 1,773 (+84 points, +90 comments) - Qwen by Simon W: 612 → 655 (+43 points, +19 comments) **Pattern:** Industry drama sustaining, CLI tooling interest growing",
+      "timestamp": "2026-03-10T18:33:10.114Z",
+      "link": null,
+      "subtitle": null,
+      "metrics": "43 points • 19 comments"
+    },
+    {
+      "category": "anthropic",
+      "title": "⚡ Anthropic vs OpenAI Drama - NOW #8 ON HN (442 points)",
+      "description": "**Final Momentum:** 264 → 442 points (+178) - **SUSTAINED MAJOR STORY** - Dario Amodei publicly calling out OpenAI for \"straight up lies\" - 240 comments - deep community engagement - **Status:** Story peaked and settling, but remains significant",
+      "timestamp": "2026-03-10T18:33:10.114Z",
+      "link": "https://techcrunch.com/2026/03/04/anthropic-ceo-dario-amodei-calls-openais-messaging-around-military-deal-straight-up-lies-report-says/",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "anthropic",
+      "title": "🆕 NVIDIA BOMBSHELL: Pulling Back from OpenAI & Anthropic (96 points)",
+      "description": "- Jensen Huang withdrawing investments - **Quote:** \"Explanation raises more questions than answers\" - **Impact:** Major investor pulling out = industry instability signal - **Why it matters:** Hardware kingmaker distancing from top AI labs",
+      "timestamp": "2026-03-10T18:33:10.114Z",
+      "link": "https://techcrunch.com/2026/03/04/jensen-huang-says-nvidia-is-pulling-back-from-openai-and-anthropic-but-his-explanation-raises-more-questions-than-it-answers/",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "breaking",
+      "title": "🍎 MacBook Neo Launch",
+      "description": "- Massive community interest (1,984 comments) - Could affect AI development workflows - Watch for AI-native features",
+      "timestamp": "2026-03-10T18:33:10.114Z",
+      "link": "https://www.apple.com/newsroom/2026/03/say-hello-to-macbook-neo/",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "anthropic",
+      "title": "YANN LECUN'S AI STARTUP RAISES $1B - EUROPE'S LARGEST SEED ROUND",
+      "description": "**MASSIVE funding round** - just broke 45 minutes ago: - **$1 billion seed round** for Yann LeCun's new AI startup - **Europe's largest ever seed round** - Meta's Chief AI Scientist launching independent venture - 41 comments in <1 hour **Why this matters:** - Top AI researcher going independent - Massive European AI investment signal - Could rival OpenAI/Anthropic scale - **Watch this space** - d...",
+      "timestamp": "2026-03-10T18:33:10.113Z",
       "link": "https://www.ft.com/content/e5245ec3-1a58-4eff-ab58-480b6259aaf1",
       "subtitle": null,
       "metrics": null
