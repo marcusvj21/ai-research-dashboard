@@ -35,30 +35,45 @@ const NOISE_KEYWORDS = [
     
     // Legal & licensing
     'lawsuit', 'legal battle', 'controversy', 'ban', 'bans', 'policy', 'license debate',
-    'copyright', 'no-llm', 'ai-generated code', 'philosophical',
+    'copyright', 'no-llm', 'ai-generated code', 'philosophical', 'licensing crisis',
+    'gpl', 'mit license', 'legal vs legitimate',
     
     // Industry drama
     'drama', 'conflict', 'walking away', 'exits', 'oracle', 'nvidia partnership', 
     'stock price', 'exploding', 'intensifying',
     
+    // Academic-only research (no practical use)
+    '3d reconstruction', 'deepmind', 'research advancement', 'new ai research',
+    
     // General noise
-    'yann lecun', 'redox', 'ethics debate'
+    'yann lecun', 'redox', 'ethics debate', 'milestone', 'crisis'
 ];
 
-function isSignal(text) {
+function isSignal(text, link) {
     const lower = text.toLowerCase();
     
-    // Check for signal keywords
+    // Immediate reject if has noise
+    const hasNoise = NOISE_KEYWORDS.some(kw => lower.includes(kw));
+    if (hasNoise) return false;
+    
+    // ALWAYS keep OpenClaw/Claude Code/Anthropic
+    if (lower.includes('openclaw') || lower.includes('claude code') || lower.includes('anthropic')) {
+        return true;
+    }
+    
+    // Check for STRONG signal keywords
     const hasSignal = SIGNAL_KEYWORDS.some(kw => lower.includes(kw));
     
-    // Check for noise keywords
-    const hasNoise = NOISE_KEYWORDS.some(kw => lower.includes(kw));
+    // Boost if has actionable indicators
+    const hasGitHub = link && link.includes('github.com');
+    const hasDemo = lower.includes('demo') || lower.includes('show hn');
+    const hasTutorial = lower.includes('tutorial') || lower.includes('guide') || lower.includes('how to');
     
-    // Has signal and no noise = keep it
-    // OR has OpenClaw/Claude Code (always keep)
-    return (hasSignal && !hasNoise) || 
-           lower.includes('openclaw') || 
-           lower.includes('claude code');
+    // Keep if: (has signal AND actionable) OR (has strong keywords)
+    return (hasSignal && (hasGitHub || hasDemo || hasTutorial)) ||
+           lower.includes('agent framework') ||
+           lower.includes('coding agent') ||
+           lower.includes('developer tool');
 }
 
 function parseResearchMarkdown(content, source) {
@@ -119,7 +134,7 @@ function parseResearchMarkdown(content, source) {
             
             // FILTER: Only include if it passes signal test
             const fullText = title + ' ' + description;
-            if (title && description.length > 10 && isSignal(fullText)) {
+            if (title && description.length > 10 && isSignal(fullText, link)) {
                 items.push({
                     category,
                     title: title.substring(0, 150),
