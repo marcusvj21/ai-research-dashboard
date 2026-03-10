@@ -1,48 +1,12 @@
 {
-  "lastUpdate": "2026-03-10T20:32:42.159Z",
-  "totalItems": 10,
+  "lastUpdate": "2026-03-10T23:32:56.775Z",
+  "totalItems": 12,
   "items": [
-    {
-      "category": "ecosystem",
-      "title": "🎯 Agentic Engineering Patterns by Simon Willison (VIRAL - 447+ points on HN)",
-      "description": "**MUST-READ GUIDE** - Community is spiking on this: - **Practical patterns** for building AI agents - From Simon Willison (trusted AI observer, Django creator) - Went viral on HN (379 → 447 points in 4 minutes) - Exactly what you need for AI-native engineering **Why this matters:** - Real engineering patterns, not theory - Community validation (viral = people needed this) - Directly applicable to...",
-      "timestamp": "2026-03-10T20:32:42.157Z",
-      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/",
-      "subtitle": null,
-      "metrics": null
-    },
-    {
-      "category": "hn",
-      "title": "Claude Code Economics Debunked",
-      "description": "**Debunking viral claim** that Anthropic loses $5k per Claude Code user: - Original claim spread widely - This analysis shows the math doesn't add up - Actual costs likely far lower - **Context:** Understanding economics of AI coding tools **Why relevant:** You're learning Claude Code - understanding its business model matters for long-term viability. **HN Discussion:** 343 points, 248 comments (s...",
-      "timestamp": "2026-03-10T20:32:42.157Z",
-      "link": "https://martinalderson.com/posts/no-it-doesnt-cost-anthropic-5k-per-claude-code-user/",
-      "subtitle": null,
-      "metrics": "343 points • 248 comments"
-    },
-    {
-      "category": "ecosystem",
-      "title": "🏗️ DenchClaw: Production CRM Reference Architecture",
-      "description": "**MARCUS: THIS IS YOUR #1 PRIORITY TO STUDY** A YC S24 company (Dench) just open-sourced a **complete production CRM** built entirely on OpenClaw. **What it is:** - Full-featured local CRM powered by OpenClaw - Works as: CRM + coding agent (Cursor-like) + browser automation tool - File-based architecture (DuckDB database) - Talk to your data in natural language **Why this matters for you:** - Real...",
-      "timestamp": "2026-03-10T20:32:42.157Z",
-      "link": "https://github.com/DenchHQ/DenchClaw",
-      "subtitle": null,
-      "metrics": null
-    },
-    {
-      "category": "arxiv",
-      "title": "Agentic Critical Training (arXiv:2603.08706)",
-      "description": "- Authors: Weize Liu, Minghui Liu, et al. (UMD/Maryland) - **NEW training methodology for agents** - Focus: Critical thinking capabilities - **Relevance:** Training better reasoning agents",
-      "timestamp": "2026-03-10T20:32:42.157Z",
-      "link": "https://arxiv.org/abs/2603.08706",
-      "subtitle": null,
-      "metrics": null
-    },
     {
       "category": "arxiv",
       "title": "RetroAgent: Self-Evolving Agents (arXiv:2603.08561)",
       "description": "- Authors: Xiaoying Zhang, Zichen Liu, et al. - **Key insight:** Agents that learn from their own past actions - Retrospective self-improvement loop - **Application:** Self-evolving agent systems **Why this matters:** - Agents getting better over time without retraining - Practical pattern for production systems - Learn from failures automatically",
-      "timestamp": "2026-03-10T20:32:42.157Z",
+      "timestamp": "2026-03-10T23:32:56.774Z",
       "link": "https://arxiv.org/abs/2603.08561",
       "subtitle": null,
       "metrics": null
@@ -51,7 +15,7 @@
       "category": "arxiv",
       "title": "🏢 IronEngine: General AI Assistant (arXiv:2603.08425)",
       "description": "- Authors: Feng Wang, Zhen Xu, Bingquan Liu - **Focus:** General purpose AI assistant architecture - Multi-domain capabilities - **Relevance:** Reference architecture for agent design",
-      "timestamp": "2026-03-10T20:32:42.157Z",
+      "timestamp": "2026-03-10T23:32:56.774Z",
       "link": "https://arxiv.org/abs/2603.08425",
       "subtitle": null,
       "metrics": null
@@ -60,7 +24,7 @@
       "category": "arxiv",
       "title": "🗺️ Hierarchical Error-Corrective Framework for Autonomous Agents (arXiv:2603.08388)",
       "description": "- Authors: Peijin Xie, Bingquan Liu, et al. - **Focus:** Error correction in autonomous agents - Graph-based approach - **Application:** More reliable agent execution **Why this matters:** - Agents that catch and fix their own mistakes - Production reliability pattern - Reduces human intervention",
-      "timestamp": "2026-03-10T20:32:42.157Z",
+      "timestamp": "2026-03-10T23:32:56.774Z",
       "link": "https://arxiv.org/abs/2603.08388",
       "subtitle": null,
       "metrics": null
@@ -69,7 +33,7 @@
       "category": "arxiv",
       "title": "M³-ACE: Multi-Agent Visual + Math Reasoning (arXiv:2603.08369)",
       "description": "- Authors: Peijin Xie, Zhen Xu, Bingquan Liu, Baoxun Wang - **Focus:** Multi-agent collaboration for math problems - Visual + language reasoning combined - **Pattern:** Multi-agent systems for complex tasks",
-      "timestamp": "2026-03-10T20:32:42.157Z",
+      "timestamp": "2026-03-10T23:32:56.774Z",
       "link": "https://arxiv.org/abs/2603.08369",
       "subtitle": null,
       "metrics": null
@@ -78,19 +42,73 @@
       "category": "arxiv",
       "title": "Agentic Neurosymbolic Collaboration (arXiv:2603.08322)",
       "description": "- Authors: Hai Xia, Carla P. Gomes, Bart Selman, Stefan Szeider - **Breakthrough:** Combining neural + symbolic AI via agents - Focus: Combinatorial design discovery - **Significance:** Agents advancing mathematics research - **Team:** Cornell + Vienna heavyweights **Why this matters:** - Shows agent capabilities beyond coding - Multi-agent collaboration patterns - Symbolic + neural hybrid approac...",
-      "timestamp": "2026-03-10T20:32:42.157Z",
+      "timestamp": "2026-03-10T23:32:56.774Z",
       "link": "https://arxiv.org/abs/2603.08322",
       "subtitle": null,
       "metrics": null
     },
     {
-      "category": "anthropic",
-      "title": "🌙 Building Agents That Run While I Sleep",
-      "description": "**Claude Code Camp article on autonomous agents** (82 points, 59 comments on HN) **What it covers:** - Building agents that run continuously without human intervention - Patterns for long-running autonomous workflows - Real-world use cases and implementations - Claude Code integration for overnight agent tasks **Why this matters:** - Moves beyond interactive coding to true automation - Shows how a...",
-      "timestamp": "2026-03-10T20:32:42.156Z",
-      "link": "https://www.claudecodecamp.com/p/i-m-building-agents-that-run-while-i-sleep",
+      "category": "ecosystem",
+      "title": "🎯 Agentic Engineering Patterns by Simon Willison (VIRAL - 447+ points on HN)",
+      "description": "**MUST-READ GUIDE** - Community is spiking on this: - **Practical patterns** for building AI agents - From Simon Willison (trusted AI observer, Django creator) - Went viral on HN (379 → 447 points in 4 minutes) - Exactly what you need for AI-native engineering **Why this matters:** - Real engineering patterns, not theory - Community validation (viral = people needed this) - Directly applicable to...",
+      "timestamp": "2026-03-10T23:32:56.773Z",
+      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/",
       "subtitle": null,
-      "metrics": "82 points • 59 comments"
+      "metrics": null
+    },
+    {
+      "category": "hn",
+      "title": "Claude Code Economics Debunked",
+      "description": "**Debunking viral claim** that Anthropic loses $5k per Claude Code user: - Original claim spread widely - This analysis shows the math doesn't add up - Actual costs likely far lower - **Context:** Understanding economics of AI coding tools **Why relevant:** You're learning Claude Code - understanding its business model matters for long-term viability. **HN Discussion:** 343 points, 248 comments (s...",
+      "timestamp": "2026-03-10T23:32:56.773Z",
+      "link": "https://martinalderson.com/posts/no-it-doesnt-cost-anthropic-5k-per-claude-code-user/",
+      "subtitle": null,
+      "metrics": "343 points • 248 comments"
+    },
+    {
+      "category": "ecosystem",
+      "title": "🏗️ DenchClaw: Production CRM Reference Architecture",
+      "description": "**MARCUS: THIS IS YOUR #1 PRIORITY TO STUDY** A YC S24 company (Dench) just open-sourced a **complete production CRM** built entirely on OpenClaw. **What it is:** - Full-featured local CRM powered by OpenClaw - Works as: CRM + coding agent (Cursor-like) + browser automation tool - File-based architecture (DuckDB database) - Talk to your data in natural language **Why this matters for you:** - Real...",
+      "timestamp": "2026-03-10T23:32:56.773Z",
+      "link": "https://github.com/DenchHQ/DenchClaw",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "arxiv",
+      "title": "📱 SecAgent: Efficient Mobile GUI Agent (arXiv:2603.08533) - NEW",
+      "description": "**Mobile automation agent at 3B scale** - Open-source coming **What it does:** - Automates smartphone tasks via GUI understanding - Chinese mobile GUI dataset (18k grounding samples, 121k navigation steps) - Semantic context mechanism (distills history into natural language) - Outperforms similar-scale baselines **Why relevant:** - Mobile automation for agent workflows - Efficient (3B model, not m...",
+      "timestamp": "2026-03-10T23:32:56.773Z",
+      "link": "https://arxiv.org/abs/2603.08533",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "arxiv",
+      "title": "SPIRAL: Self-Improving Planning Agents (arXiv:2603.08403) - NEW",
+      "description": "**Closed-loop think-act-reflect framework** **Innovation:** - PlanAgent: Decomposes actions into sub-actions - CriticAgent: Evaluates results and guides refinement - Long-horizon memory for iterative improvement - Supports RL optimization **Pattern:** - Think → Act → Reflect → Improve (closed loop) - Agents that learn from their own outputs - Similar to \"while I sleep\" autonomous theme **Why this...",
+      "timestamp": "2026-03-10T23:32:56.773Z",
+      "link": "https://arxiv.org/abs/2603.08403",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "arxiv",
+      "title": "Agentic Critical Training (arXiv:2603.08706)",
+      "description": "- Authors: Weize Liu, Minghui Liu, et al. (UMD/Maryland) - **NEW training methodology for agents** - Focus: Critical thinking capabilities - **Relevance:** Training better reasoning agents",
+      "timestamp": "2026-03-10T23:32:56.773Z",
+      "link": "https://arxiv.org/abs/2603.08706",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "anthropic",
+      "title": "PostTrainBench: LLM Agents Automating LLM Training ⭐⭐⭐",
+      "description": "**MAJOR BREAKTHROUGH** - Agents can now automate AI research itself **What this is:** - Benchmark for LLM agents performing post-training autonomously - Frontier agents (Claude Code with Opus 4.6) optimizing base LLMs - Full autonomy: agents find info on web, run experiments, curate data - Bounded compute: 10 hours on one H100 GPU **Key results:** - Best agent: 23.2% performance vs 51.1% for offic...",
+      "timestamp": "2026-03-10T23:32:56.772Z",
+      "link": "https://posttrainbench.com/",
+      "subtitle": null,
+      "metrics": null
     }
   ]
 }
