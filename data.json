@@ -1,129 +1,12 @@
 {
-  "lastUpdate": "2026-03-14T17:14:06.965Z",
-  "totalItems": 25,
+  "lastUpdate": "2026-03-14T20:08:44.182Z",
+  "totalItems": 26,
   "items": [
-    {
-      "category": "arxiv",
-      "title": "RecThinker: Tool-Augmented Reasoning for Recommendations (arXiv:2603.09843) - NEW TODAY",
-      "description": "**Agentic framework for recommendation systems** **Innovation - Analyze-Plan-Act paradigm:** 1. Analyzes information sufficiency 2. Plans reasoning paths 3. Autonomously invokes tools to bridge gaps **Key advancement:** - Shifts from passive processing → autonomous investigation - Dynamic tool-use for user-side, item-side, collaborative data - Self-augmented training: SFT + RL stages **Pattern:**...",
-      "timestamp": "2026-03-14T17:14:06.963Z",
-      "link": "https://arxiv.org/abs/2603.09843",
-      "subtitle": null,
-      "metrics": null
-    },
-    {
-      "category": "arxiv",
-      "title": "📱 SecAgent: Efficient Mobile GUI Agent (arXiv:2603.08533) - NEW",
-      "description": "**Mobile automation agent at 3B scale** - Open-source coming **What it does:** - Automates smartphone tasks via GUI understanding - Chinese mobile GUI dataset (18k grounding samples, 121k navigation steps) - Semantic context mechanism (distills history into natural language) - Outperforms similar-scale baselines **Why relevant:** - Mobile automation for agent workflows - Efficient (3B model, not m...",
-      "timestamp": "2026-03-14T17:14:06.963Z",
-      "link": "https://arxiv.org/abs/2603.08533",
-      "subtitle": null,
-      "metrics": null
-    },
-    {
-      "category": "arxiv",
-      "title": "SPIRAL: Self-Improving Planning Agents (arXiv:2603.08403) - NEW",
-      "description": "**Closed-loop think-act-reflect framework** **Innovation:** - PlanAgent: Decomposes actions into sub-actions - CriticAgent: Evaluates results and guides refinement - Long-horizon memory for iterative improvement - Supports RL optimization **Pattern:** - Think → Act → Reflect → Improve (closed loop) - Agents that learn from their own outputs - Similar to \"while I sleep\" autonomous theme **Why this...",
-      "timestamp": "2026-03-14T17:14:06.963Z",
-      "link": "https://arxiv.org/abs/2603.08403",
-      "subtitle": null,
-      "metrics": null
-    },
-    {
-      "category": "arxiv",
-      "title": "Agentic Critical Training (arXiv:2603.08706)",
-      "description": "- Authors: Weize Liu, Minghui Liu, et al. (UMD/Maryland) - **NEW training methodology for agents** - Focus: Critical thinking capabilities - **Relevance:** Training better reasoning agents",
-      "timestamp": "2026-03-14T17:14:06.963Z",
-      "link": "https://arxiv.org/abs/2603.08706",
-      "subtitle": null,
-      "metrics": null
-    },
-    {
-      "category": "arxiv",
-      "title": "RetroAgent: Self-Evolving Agents (arXiv:2603.08561)",
-      "description": "- Authors: Xiaoying Zhang, Zichen Liu, et al. - **Key insight:** Agents that learn from their own past actions - Retrospective self-improvement loop - **Application:** Self-evolving agent systems **Why this matters:** - Agents getting better over time without retraining - Practical pattern for production systems - Learn from failures automatically",
-      "timestamp": "2026-03-14T17:14:06.963Z",
-      "link": "https://arxiv.org/abs/2603.08561",
-      "subtitle": null,
-      "metrics": null
-    },
-    {
-      "category": "arxiv",
-      "title": "🏢 IronEngine: General AI Assistant (arXiv:2603.08425)",
-      "description": "- Authors: Feng Wang, Zhen Xu, Bingquan Liu - **Focus:** General purpose AI assistant architecture - Multi-domain capabilities - **Relevance:** Reference architecture for agent design",
-      "timestamp": "2026-03-14T17:14:06.963Z",
-      "link": "https://arxiv.org/abs/2603.08425",
-      "subtitle": null,
-      "metrics": null
-    },
-    {
-      "category": "arxiv",
-      "title": "🗺️ Hierarchical Error-Corrective Framework for Autonomous Agents (arXiv:2603.08388)",
-      "description": "- Authors: Peijin Xie, Bingquan Liu, et al. - **Focus:** Error correction in autonomous agents - Graph-based approach - **Application:** More reliable agent execution **Why this matters:** - Agents that catch and fix their own mistakes - Production reliability pattern - Reduces human intervention",
-      "timestamp": "2026-03-14T17:14:06.963Z",
-      "link": "https://arxiv.org/abs/2603.08388",
-      "subtitle": null,
-      "metrics": null
-    },
-    {
-      "category": "arxiv",
-      "title": "M³-ACE: Multi-Agent Visual + Math Reasoning (arXiv:2603.08369)",
-      "description": "- Authors: Peijin Xie, Zhen Xu, Bingquan Liu, Baoxun Wang - **Focus:** Multi-agent collaboration for math problems - Visual + language reasoning combined - **Pattern:** Multi-agent systems for complex tasks",
-      "timestamp": "2026-03-14T17:14:06.963Z",
-      "link": "https://arxiv.org/abs/2603.08369",
-      "subtitle": null,
-      "metrics": null
-    },
-    {
-      "category": "arxiv",
-      "title": "Agentic Neurosymbolic Collaboration (arXiv:2603.08322)",
-      "description": "- Authors: Hai Xia, Carla P. Gomes, Bart Selman, Stefan Szeider - **Breakthrough:** Combining neural + symbolic AI via agents - Focus: Combinatorial design discovery - **Significance:** Agents advancing mathematics research - **Team:** Cornell + Vienna heavyweights **Why this matters:** - Shows agent capabilities beyond coding - Multi-agent collaboration patterns - Symbolic + neural hybrid approac...",
-      "timestamp": "2026-03-14T17:14:06.963Z",
-      "link": "https://arxiv.org/abs/2603.08322",
-      "subtitle": null,
-      "metrics": null
-    },
-    {
-      "category": "anthropic",
-      "title": "\"Building Agents That Run While I Sleep\" - NOW 285 POINTS! ⬆️ (was 241)",
-      "description": "**Viral growth continues** - Community resonating with autonomous agent patterns **Why the spike:** - Practical patterns people can implement - Addresses real pain point (agents need supervision) - Shows how to build truly autonomous workflows",
-      "timestamp": "2026-03-14T17:14:06.962Z",
-      "link": "https://www.claudecodecamp.com/p/i-m-building-agents-that-run-while-i-sleep",
-      "subtitle": null,
-      "metrics": null
-    },
-    {
-      "category": "ecosystem",
-      "title": "🎯 Agentic Engineering Patterns by Simon Willison (VIRAL - 447+ points on HN)",
-      "description": "**MUST-READ GUIDE** - Community is spiking on this: - **Practical patterns** for building AI agents - From Simon Willison (trusted AI observer, Django creator) - Went viral on HN (379 → 447 points in 4 minutes) - Exactly what you need for AI-native engineering **Why this matters:** - Real engineering patterns, not theory - Community validation (viral = people needed this) - Directly applicable to...",
-      "timestamp": "2026-03-14T17:14:06.962Z",
-      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/",
-      "subtitle": null,
-      "metrics": null
-    },
-    {
-      "category": "hn",
-      "title": "Claude Code Economics Debunked",
-      "description": "**Debunking viral claim** that Anthropic loses $5k per Claude Code user: - Original claim spread widely - This analysis shows the math doesn't add up - Actual costs likely far lower - **Context:** Understanding economics of AI coding tools **Why relevant:** You're learning Claude Code - understanding its business model matters for long-term viability. **HN Discussion:** 343 points, 248 comments (s...",
-      "timestamp": "2026-03-14T17:14:06.962Z",
-      "link": "https://martinalderson.com/posts/no-it-doesnt-cost-anthropic-5k-per-claude-code-user/",
-      "subtitle": null,
-      "metrics": "343 points • 248 comments"
-    },
-    {
-      "category": "ecosystem",
-      "title": "🚀 Klaus: Hosted OpenClaw (YC-backed)  NEW (31 pts on HN)",
-      "description": "**Managed OpenClaw hosting service** **What it does:** - Each user gets their own EC2 instance with preconfigured keys - Pre-integrated OAuth for Slack, Google Workspace - Automatic updates, private subnet, security hardening - ClawBert: AI SRE for auto-fixing broken instances **Pricing:** - $19/mo (t4g.small) to $200/mo (t4g.xlarge) - Includes $15 in tokens + $20 Orthogonal credits **Why relevant...",
-      "timestamp": "2026-03-14T17:14:06.962Z",
-      "link": "https://klausai.com/",
-      "subtitle": null,
-      "metrics": null
-    },
     {
       "category": "ecosystem",
       "title": "🎬 Prism: AI Video Platform with OpenClaw (YC X25) - NEW (14 pts)",
       "description": "**AI video creation with OpenClaw integration** **What it does:** - Unified workflow for multi-step AI video (Kling, Veo, Sora, Hailuo) - Template-based workflows exposed via API - OpenClaw agents can discover templates and generate videos **Demo:** https://www.youtube.com/watch?v=5dWaD23qnro (UGC ads automation) **Why relevant:** - OpenClaw skill for video generation - Shows agents composing mult...",
-      "timestamp": "2026-03-14T17:14:06.962Z",
+      "timestamp": "2026-03-14T20:08:44.181Z",
       "link": "https://www.prismvideos.com",
       "subtitle": null,
       "metrics": null
@@ -132,7 +15,7 @@
       "category": "ecosystem",
       "title": "🎰 PiClaw: OpenClaw Alternative in Bun (NEW - 240 stars)",
       "description": "**Someone building OpenClaw alternative using Bun runtime** **What it is:** - \"I'm going to build my own OpenClaw, with blackjack... and bun!\" - Started Feb 17, 2026 - 240 stars already - Alternative implementation exploring different runtime **Why relevant:** - Shows OpenClaw concepts gaining traction - Different implementation approaches emerging - Community experimentation **Status:** Early sta...",
-      "timestamp": "2026-03-14T17:14:06.962Z",
+      "timestamp": "2026-03-14T20:08:44.181Z",
       "link": "https://github.com/rcarmo/piclaw",
       "subtitle": null,
       "metrics": null
@@ -141,17 +24,89 @@
       "category": "ecosystem",
       "title": "🏗️ DenchClaw: Production CRM Reference Architecture",
       "description": "**MARCUS: THIS IS YOUR #1 PRIORITY TO STUDY** A YC S24 company (Dench) just open-sourced a **complete production CRM** built entirely on OpenClaw. **What it is:** - Full-featured local CRM powered by OpenClaw - Works as: CRM + coding agent (Cursor-like) + browser automation tool - File-based architecture (DuckDB database) - Talk to your data in natural language **Why this matters for you:** - Real...",
-      "timestamp": "2026-03-14T17:14:06.962Z",
+      "timestamp": "2026-03-14T20:08:44.181Z",
       "link": "https://github.com/DenchHQ/DenchClaw",
       "subtitle": null,
       "metrics": null
     },
     {
-      "category": "breaking",
-      "title": "🔓 AI Agent Hacks McKinsey Platform (47 pts on HN)",
-      "description": "**Security vulnerability in enterprise AI platform** **What happened:** - Researchers hacked McKinsey's AI agent platform - Shows security gaps in AI agent systems - Demonstrates agent security challenges **Why relevant:** - Agent security is critical as adoption grows - Enterprise AI platforms have vulnerabilities - Need for sandboxing and security boundaries **Pattern:** AI agent security and sa...",
-      "timestamp": "2026-03-14T17:14:06.961Z",
-      "link": "https://codewall.ai/blog/how-we-hacked-mckinseys-ai-platform",
+      "category": "arxiv",
+      "title": "RecThinker: Tool-Augmented Reasoning for Recommendations (arXiv:2603.09843) - NEW TODAY",
+      "description": "**Agentic framework for recommendation systems** **Innovation - Analyze-Plan-Act paradigm:** 1. Analyzes information sufficiency 2. Plans reasoning paths 3. Autonomously invokes tools to bridge gaps **Key advancement:** - Shifts from passive processing → autonomous investigation - Dynamic tool-use for user-side, item-side, collaborative data - Self-augmented training: SFT + RL stages **Pattern:**...",
+      "timestamp": "2026-03-14T20:08:44.181Z",
+      "link": "https://arxiv.org/abs/2603.09843",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "arxiv",
+      "title": "📱 SecAgent: Efficient Mobile GUI Agent (arXiv:2603.08533) - NEW",
+      "description": "**Mobile automation agent at 3B scale** - Open-source coming **What it does:** - Automates smartphone tasks via GUI understanding - Chinese mobile GUI dataset (18k grounding samples, 121k navigation steps) - Semantic context mechanism (distills history into natural language) - Outperforms similar-scale baselines **Why relevant:** - Mobile automation for agent workflows - Efficient (3B model, not m...",
+      "timestamp": "2026-03-14T20:08:44.181Z",
+      "link": "https://arxiv.org/abs/2603.08533",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "arxiv",
+      "title": "SPIRAL: Self-Improving Planning Agents (arXiv:2603.08403) - NEW",
+      "description": "**Closed-loop think-act-reflect framework** **Innovation:** - PlanAgent: Decomposes actions into sub-actions - CriticAgent: Evaluates results and guides refinement - Long-horizon memory for iterative improvement - Supports RL optimization **Pattern:** - Think → Act → Reflect → Improve (closed loop) - Agents that learn from their own outputs - Similar to \"while I sleep\" autonomous theme **Why this...",
+      "timestamp": "2026-03-14T20:08:44.181Z",
+      "link": "https://arxiv.org/abs/2603.08403",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "arxiv",
+      "title": "Agentic Critical Training (arXiv:2603.08706)",
+      "description": "- Authors: Weize Liu, Minghui Liu, et al. (UMD/Maryland) - **NEW training methodology for agents** - Focus: Critical thinking capabilities - **Relevance:** Training better reasoning agents",
+      "timestamp": "2026-03-14T20:08:44.181Z",
+      "link": "https://arxiv.org/abs/2603.08706",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "arxiv",
+      "title": "RetroAgent: Self-Evolving Agents (arXiv:2603.08561)",
+      "description": "- Authors: Xiaoying Zhang, Zichen Liu, et al. - **Key insight:** Agents that learn from their own past actions - Retrospective self-improvement loop - **Application:** Self-evolving agent systems **Why this matters:** - Agents getting better over time without retraining - Practical pattern for production systems - Learn from failures automatically",
+      "timestamp": "2026-03-14T20:08:44.181Z",
+      "link": "https://arxiv.org/abs/2603.08561",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "arxiv",
+      "title": "🏢 IronEngine: General AI Assistant (arXiv:2603.08425)",
+      "description": "- Authors: Feng Wang, Zhen Xu, Bingquan Liu - **Focus:** General purpose AI assistant architecture - Multi-domain capabilities - **Relevance:** Reference architecture for agent design",
+      "timestamp": "2026-03-14T20:08:44.181Z",
+      "link": "https://arxiv.org/abs/2603.08425",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "arxiv",
+      "title": "🗺️ Hierarchical Error-Corrective Framework for Autonomous Agents (arXiv:2603.08388)",
+      "description": "- Authors: Peijin Xie, Bingquan Liu, et al. - **Focus:** Error correction in autonomous agents - Graph-based approach - **Application:** More reliable agent execution **Why this matters:** - Agents that catch and fix their own mistakes - Production reliability pattern - Reduces human intervention",
+      "timestamp": "2026-03-14T20:08:44.181Z",
+      "link": "https://arxiv.org/abs/2603.08388",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "arxiv",
+      "title": "M³-ACE: Multi-Agent Visual + Math Reasoning (arXiv:2603.08369)",
+      "description": "- Authors: Peijin Xie, Zhen Xu, Bingquan Liu, Baoxun Wang - **Focus:** Multi-agent collaboration for math problems - Visual + language reasoning combined - **Pattern:** Multi-agent systems for complex tasks",
+      "timestamp": "2026-03-14T20:08:44.181Z",
+      "link": "https://arxiv.org/abs/2603.08369",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "arxiv",
+      "title": "Agentic Neurosymbolic Collaboration (arXiv:2603.08322)",
+      "description": "- Authors: Hai Xia, Carla P. Gomes, Bart Selman, Stefan Szeider - **Breakthrough:** Combining neural + symbolic AI via agents - Focus: Combinatorial design discovery - **Significance:** Agents advancing mathematics research - **Team:** Cornell + Vienna heavyweights **Why this matters:** - Shows agent capabilities beyond coding - Multi-agent collaboration patterns - Symbolic + neural hybrid approac...",
+      "timestamp": "2026-03-14T20:08:44.181Z",
+      "link": "https://arxiv.org/abs/2603.08322",
       "subtitle": null,
       "metrics": null
     },
@@ -159,7 +114,7 @@
       "category": "arxiv",
       "title": "🔗 Chow-Liu Ordering for Chain-of-Agents (arXiv:2603.09835)",
       "description": "**Optimizing chunk ordering in multi-agent reasoning over long contexts** **What this solves:** - Chain-of-Agents (CoA) processes long contexts by splitting into chunks - Processing order affects final answer quality (lossy information bottleneck) - Uses probabilistic ordering to minimize information loss **Key insight:** - CoA approximates joint reasoning via sequential agent processing - Chunk o...",
-      "timestamp": "2026-03-14T17:14:06.961Z",
+      "timestamp": "2026-03-14T20:08:44.180Z",
       "link": "https://arxiv.org/abs/2603.09835",
       "subtitle": null,
       "metrics": null
@@ -168,8 +123,44 @@
       "category": "arxiv",
       "title": "👁️ MA-EgoQA: Multi-Agent Egocentric Video Understanding (arXiv:2603.09827)",
       "description": "**Benchmark for understanding multiple embodied agents simultaneously** **What it does:** - 1.7k questions spanning 5 categories (social interaction, task coordination, theory-of-mind) - Multiple long-horizon egocentric videos from embodied agents - Baseline model: EgoMAS with shared memory + agent-wise retrieval **Key finding:** - Current approaches fail to handle multiple egocentric streams effe...",
-      "timestamp": "2026-03-14T17:14:06.961Z",
+      "timestamp": "2026-03-14T20:08:44.180Z",
       "link": "https://arxiv.org/abs/2603.09827",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "anthropic",
+      "title": "\"Building Agents That Run While I Sleep\" - NOW 285 POINTS! ⬆️ (was 241)",
+      "description": "**Viral growth continues** - Community resonating with autonomous agent patterns **Why the spike:** - Practical patterns people can implement - Addresses real pain point (agents need supervision) - Shows how to build truly autonomous workflows",
+      "timestamp": "2026-03-14T20:08:44.180Z",
+      "link": "https://www.claudecodecamp.com/p/i-m-building-agents-that-run-while-i-sleep",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "ecosystem",
+      "title": "🎯 Agentic Engineering Patterns by Simon Willison (VIRAL - 447+ points on HN)",
+      "description": "**MUST-READ GUIDE** - Community is spiking on this: - **Practical patterns** for building AI agents - From Simon Willison (trusted AI observer, Django creator) - Went viral on HN (379 → 447 points in 4 minutes) - Exactly what you need for AI-native engineering **Why this matters:** - Real engineering patterns, not theory - Community validation (viral = people needed this) - Directly applicable to...",
+      "timestamp": "2026-03-14T20:08:44.180Z",
+      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "hn",
+      "title": "Claude Code Economics Debunked",
+      "description": "**Debunking viral claim** that Anthropic loses $5k per Claude Code user: - Original claim spread widely - This analysis shows the math doesn't add up - Actual costs likely far lower - **Context:** Understanding economics of AI coding tools **Why relevant:** You're learning Claude Code - understanding its business model matters for long-term viability. **HN Discussion:** 343 points, 248 comments (s...",
+      "timestamp": "2026-03-14T20:08:44.180Z",
+      "link": "https://martinalderson.com/posts/no-it-doesnt-cost-anthropic-5k-per-claude-code-user/",
+      "subtitle": null,
+      "metrics": "343 points • 248 comments"
+    },
+    {
+      "category": "ecosystem",
+      "title": "🚀 Klaus: Hosted OpenClaw (YC-backed)  NEW (31 pts on HN)",
+      "description": "**Managed OpenClaw hosting service** **What it does:** - Each user gets their own EC2 instance with preconfigured keys - Pre-integrated OAuth for Slack, Google Workspace - Automatic updates, private subnet, security hardening - ClawBert: AI SRE for auto-fixing broken instances **Pricing:** - $19/mo (t4g.small) to $200/mo (t4g.xlarge) - Includes $15 in tokens + $20 Orthogonal credits **Why relevant...",
+      "timestamp": "2026-03-14T20:08:44.180Z",
+      "link": "https://klausai.com/",
       "subtitle": null,
       "metrics": null
     },
@@ -177,7 +168,7 @@
       "category": "anthropic",
       "title": "PostTrainBench: LLM Agents Automating LLM Training ⭐⭐⭐",
       "description": "**MAJOR BREAKTHROUGH** - Agents can now automate AI research itself **What this is:** - Benchmark for LLM agents performing post-training autonomously - Frontier agents (Claude Code with Opus 4.6) optimizing base LLMs - Full autonomy: agents find info on web, run experiments, curate data - Bounded compute: 10 hours on one H100 GPU **Key results:** - Best agent: 23.2% performance vs 51.1% for offic...",
-      "timestamp": "2026-03-14T17:14:06.960Z",
+      "timestamp": "2026-03-14T20:08:44.179Z",
       "link": "https://posttrainbench.com/",
       "subtitle": null,
       "metrics": null
@@ -186,7 +177,7 @@
       "category": "anthropic",
       "title": "1,573 Claude Code Sessions Analyzed  NEW (102 pts, 20 comments on HN)",
       "description": "**Real-world data analysis of how Claude Code agents actually work** **What this is:** - Analyzed 1,573 Claude Code sessions - GitHub repo: obsessiondb/rudel - Empirical data on agent behavior patterns **Why this matters for Marcus:** - **DATA-DRIVEN INSIGHTS** on Claude Code (not theory) - Understand how agents work in practice - Patterns, failure modes, usage stats from real sessions - **DIRECTL...",
-      "timestamp": "2026-03-14T17:14:06.960Z",
+      "timestamp": "2026-03-14T20:08:44.179Z",
       "link": "https://github.com/obsessiondb/rudel",
       "subtitle": null,
       "metrics": null
@@ -195,16 +186,34 @@
       "category": "anthropic",
       "title": "nah: Permission Guard for Claude Code (39 pts on HN)",
       "description": "**Context-aware permission system for Claude Code** **Problem it solves:** - Claude Code's allow/deny doesn't scale - Agents find workarounds (200 IQ Opus breaks permissions) - Need context-aware policies, not blanket rules **How it works:** - PreToolUse hook that classifies every tool call - Maps commands → action types (filesystem_read, db_write, git_history_rewrite) - Applies policies: allow, c...",
-      "timestamp": "2026-03-14T17:14:06.960Z",
+      "timestamp": "2026-03-14T20:08:44.179Z",
       "link": "https://github.com/manuelschipper/nah/",
       "subtitle": null,
       "metrics": null
     },
     {
       "category": "breaking",
+      "title": "🔓 AI Agent Hacks McKinsey Platform (47 pts on HN)",
+      "description": "**Security vulnerability in enterprise AI platform** **What happened:** - Researchers hacked McKinsey's AI agent platform - Shows security gaps in AI agent systems - Demonstrates agent security challenges **Why relevant:** - Agent security is critical as adoption grows - Enterprise AI platforms have vulnerabilities - Need for sandboxing and security boundaries **Pattern:** AI agent security and sa...",
+      "timestamp": "2026-03-14T20:08:44.179Z",
+      "link": "https://codewall.ai/blog/how-we-hacked-mckinseys-ai-platform",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "ecosystem",
+      "title": "🎯 GitAgent: Portable Agent Spec ⭐⭐⭐ GROWING (Show HN - 59 pts!)",
+      "description": "**Update 20:07 UTC:** Grown from 11 → 59 pts (4 comments). Community interest building. **Git-native agent specification for portability across frameworks** **What it solves:** - Every agent framework defines agents differently - Switching frameworks = rewriting everything - No standard way to version/share agent definitions **The spec - Three files define an agent:** 1. **agent.yaml** - Configura...",
+      "timestamp": "2026-03-14T20:08:44.178Z",
+      "link": "https://www.gitagent.sh/",
+      "subtitle": null,
+      "metrics": "59 points • 4 comments"
+    },
+    {
+      "category": "breaking",
       "title": "💻 Hammerspoon: macOS Automation  (272 pts on HN)",
       "description": "**Lua-based macOS automation tool getting renewed attention** (96 comments) **What it does:** - Bridge between macOS APIs and Lua scripting - Window management, keyboard shortcuts, menu bar apps - Automation workflows **Why trending now:** - Alternative to AI automation for deterministic tasks - Complements agent workflows (use both) - Shows continued value of scripting vs. AI for some tasks **Pat...",
-      "timestamp": "2026-03-14T17:14:06.959Z",
+      "timestamp": "2026-03-14T20:08:44.178Z",
       "link": "https://github.com/Hammerspoon/hammerspoon",
       "subtitle": null,
       "metrics": null
@@ -213,17 +222,17 @@
       "category": "ecosystem",
       "title": "🖱️ Mouser: Open-Source Logitech Alternative (280 pts on HN)",
       "description": "**Open-source macOS app to replace Logi Options Plus** (80 comments) **Motivation:** - Logi Options Plus consuming 40-60% CPU - Telemetry concerns - Bloated proprietary software **Relevance:** - Shows community push for lightweight, privacy-respecting tools - Pattern: Open alternatives to bloated commercial software - Similar ethos to OpenClaw (open vs. proprietary)",
-      "timestamp": "2026-03-14T17:14:06.959Z",
+      "timestamp": "2026-03-14T20:08:44.178Z",
       "link": "https://github.com/TomBadash/MouseControl",
       "subtitle": null,
       "metrics": null
     },
     {
-      "category": "ecosystem",
-      "title": "🎯 GitAgent: Portable Agent Spec ⭐⭐ NEW (Show HN - 11 pts)",
-      "description": "**Git-native agent specification for portability across frameworks** **What it solves:** - Every agent framework defines agents differently - Switching frameworks = rewriting everything - No standard way to version/share agent definitions **The spec - Three files define an agent:** 1. **agent.yaml** - Configuration 2. **SOUL.md** - Personality/instructions 3. **SKILL.md** - Capabilities **Sound fa...",
-      "timestamp": "2026-03-14T17:14:06.957Z",
-      "link": "https://www.gitagent.sh/",
+      "category": "anthropic",
+      "title": "Claudetop: htop for Claude Code  NEW (Show HN - 26 pts)",
+      "description": "**Real-time monitoring for Claude Code API spending** **What it does:** - Terminal UI (like `htop`) showing Claude Code sessions in real-time - Live cost tracking per session - Token usage monitoring - Performance metrics **Why this matters for Marcus:** - **DIRECTLY relevant to your Claude Code workflow** - Visibility into API costs before they surprise you - Understanding resource consumption pa...",
+      "timestamp": "2026-03-14T20:08:44.176Z",
+      "link": "https://github.com/liorwn/claudetop",
       "subtitle": null,
       "metrics": null
     }
