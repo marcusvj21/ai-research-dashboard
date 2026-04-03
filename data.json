@@ -1,112 +1,13 @@
 {
-  "lastUpdate": "2026-03-24T18:05:39.693Z",
-  "totalItems": 46,
+  "lastUpdate": "2026-04-03T11:19:05.941Z",
+  "totalItems": 62,
   "items": [
     {
       "category": "ecosystem",
-      "title": "🎯 Agentic Engineering Patterns by Simon Willison (VIRAL - 447+ points on HN)",
-      "description": "**MUST-READ GUIDE** - Community is spiking on this: - **Practical patterns** for building AI agents - From Simon Willison (trusted AI observer, Django creator) - Went viral on HN (379 → 447 points in 4 minutes) - Exactly what you need for AI-native engineering **Why this matters:** - Real engineering patterns, not theory - Community validation (viral = people needed this) - Directly applicable to...",
-      "timestamp": "2026-03-24T18:05:39.691Z",
-      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/",
-      "subtitle": null,
-      "metrics": null
-    },
-    {
-      "category": "hn",
-      "title": "Claude Code Economics Debunked",
-      "description": "**Debunking viral claim** that Anthropic loses $5k per Claude Code user: - Original claim spread widely - This analysis shows the math doesn't add up - Actual costs likely far lower - **Context:** Understanding economics of AI coding tools **Why relevant:** You're learning Claude Code - understanding its business model matters for long-term viability. **HN Discussion:** 343 points, 248 comments (s...",
-      "timestamp": "2026-03-24T18:05:39.691Z",
-      "link": "https://martinalderson.com/posts/no-it-doesnt-cost-anthropic-5k-per-claude-code-user/",
-      "subtitle": null,
-      "metrics": "343 points • 248 comments"
-    },
-    {
-      "category": "ecosystem",
-      "title": "🚀 Klaus: Hosted OpenClaw (YC-backed)  NEW (31 pts on HN)",
-      "description": "**Managed OpenClaw hosting service** **What it does:** - Each user gets their own EC2 instance with preconfigured keys - Pre-integrated OAuth for Slack, Google Workspace - Automatic updates, private subnet, security hardening - ClawBert: AI SRE for auto-fixing broken instances **Pricing:** - $19/mo (t4g.small) to $200/mo (t4g.xlarge) - Includes $15 in tokens + $20 Orthogonal credits **Why relevant...",
-      "timestamp": "2026-03-24T18:05:39.691Z",
-      "link": "https://klausai.com/",
-      "subtitle": null,
-      "metrics": null
-    },
-    {
-      "category": "ecosystem",
-      "title": "🎬 Prism: AI Video Platform with OpenClaw (YC X25) - NEW (14 pts)",
-      "description": "**AI video creation with OpenClaw integration** **What it does:** - Unified workflow for multi-step AI video (Kling, Veo, Sora, Hailuo) - Template-based workflows exposed via API - OpenClaw agents can discover templates and generate videos **Demo:** https://www.youtube.com/watch?v=5dWaD23qnro (UGC ads automation) **Why relevant:** - OpenClaw skill for video generation - Shows agents composing mult...",
-      "timestamp": "2026-03-24T18:05:39.691Z",
-      "link": "https://www.prismvideos.com",
-      "subtitle": null,
-      "metrics": null
-    },
-    {
-      "category": "ecosystem",
-      "title": "🎰 PiClaw: OpenClaw Alternative in Bun (NEW - 240 stars)",
-      "description": "**Someone building OpenClaw alternative using Bun runtime** **What it is:** - \"I'm going to build my own OpenClaw, with blackjack... and bun!\" - Started Feb 17, 2026 - 240 stars already - Alternative implementation exploring different runtime **Why relevant:** - Shows OpenClaw concepts gaining traction - Different implementation approaches emerging - Community experimentation **Status:** Early sta...",
-      "timestamp": "2026-03-24T18:05:39.691Z",
-      "link": "https://github.com/rcarmo/piclaw",
-      "subtitle": null,
-      "metrics": null
-    },
-    {
-      "category": "ecosystem",
-      "title": "🏗️ DenchClaw: Production CRM Reference Architecture",
-      "description": "**MARCUS: THIS IS YOUR #1 PRIORITY TO STUDY** A YC S24 company (Dench) just open-sourced a **complete production CRM** built entirely on OpenClaw. **What it is:** - Full-featured local CRM powered by OpenClaw - Works as: CRM + coding agent (Cursor-like) + browser automation tool - File-based architecture (DuckDB database) - Talk to your data in natural language **Why this matters for you:** - Real...",
-      "timestamp": "2026-03-24T18:05:39.691Z",
-      "link": "https://github.com/DenchHQ/DenchClaw",
-      "subtitle": null,
-      "metrics": null
-    },
-    {
-      "category": "arxiv",
-      "title": "RecThinker: Tool-Augmented Reasoning for Recommendations (arXiv:2603.09843) - NEW TODAY",
-      "description": "**Agentic framework for recommendation systems** **Innovation - Analyze-Plan-Act paradigm:** 1. Analyzes information sufficiency 2. Plans reasoning paths 3. Autonomously invokes tools to bridge gaps **Key advancement:** - Shifts from passive processing → autonomous investigation - Dynamic tool-use for user-side, item-side, collaborative data - Self-augmented training: SFT + RL stages **Pattern:**...",
-      "timestamp": "2026-03-24T18:05:39.691Z",
-      "link": "https://arxiv.org/abs/2603.09843",
-      "subtitle": null,
-      "metrics": null
-    },
-    {
-      "category": "arxiv",
-      "title": "📱 SecAgent: Efficient Mobile GUI Agent (arXiv:2603.08533) - NEW",
-      "description": "**Mobile automation agent at 3B scale** - Open-source coming **What it does:** - Automates smartphone tasks via GUI understanding - Chinese mobile GUI dataset (18k grounding samples, 121k navigation steps) - Semantic context mechanism (distills history into natural language) - Outperforms similar-scale baselines **Why relevant:** - Mobile automation for agent workflows - Efficient (3B model, not m...",
-      "timestamp": "2026-03-24T18:05:39.691Z",
-      "link": "https://arxiv.org/abs/2603.08533",
-      "subtitle": null,
-      "metrics": null
-    },
-    {
-      "category": "arxiv",
-      "title": "SPIRAL: Self-Improving Planning Agents (arXiv:2603.08403) - NEW",
-      "description": "**Closed-loop think-act-reflect framework** **Innovation:** - PlanAgent: Decomposes actions into sub-actions - CriticAgent: Evaluates results and guides refinement - Long-horizon memory for iterative improvement - Supports RL optimization **Pattern:** - Think → Act → Reflect → Improve (closed loop) - Agents that learn from their own outputs - Similar to \"while I sleep\" autonomous theme **Why this...",
-      "timestamp": "2026-03-24T18:05:39.691Z",
-      "link": "https://arxiv.org/abs/2603.08403",
-      "subtitle": null,
-      "metrics": null
-    },
-    {
-      "category": "arxiv",
-      "title": "Agentic Critical Training (arXiv:2603.08706)",
-      "description": "- Authors: Weize Liu, Minghui Liu, et al. (UMD/Maryland) - **NEW training methodology for agents** - Focus: Critical thinking capabilities - **Relevance:** Training better reasoning agents",
-      "timestamp": "2026-03-24T18:05:39.691Z",
-      "link": "https://arxiv.org/abs/2603.08706",
-      "subtitle": null,
-      "metrics": null
-    },
-    {
-      "category": "arxiv",
-      "title": "RetroAgent: Self-Evolving Agents (arXiv:2603.08561)",
-      "description": "- Authors: Xiaoying Zhang, Zichen Liu, et al. - **Key insight:** Agents that learn from their own past actions - Retrospective self-improvement loop - **Application:** Self-evolving agent systems **Why this matters:** - Agents getting better over time without retraining - Practical pattern for production systems - Learn from failures automatically",
-      "timestamp": "2026-03-24T18:05:39.691Z",
-      "link": "https://arxiv.org/abs/2603.08561",
-      "subtitle": null,
-      "metrics": null
-    },
-    {
-      "category": "arxiv",
-      "title": "🏢 IronEngine: General AI Assistant (arXiv:2603.08425)",
-      "description": "- Authors: Feng Wang, Zhen Xu, Bingquan Liu - **Focus:** General purpose AI assistant architecture - Multi-domain capabilities - **Relevance:** Reference architecture for agent design",
-      "timestamp": "2026-03-24T18:05:39.691Z",
-      "link": "https://arxiv.org/abs/2603.08425",
+      "title": "🏆 StepFun 3.5 Flash Tops OpenClaw Arena Cost-Effectiveness ⭐ OPENCLAW (158 HN pts)",
+      "description": "**Community benchmark shows StepFun 3.5 Flash as #1 cost-effective model for OpenClaw agent tasks** **Why this matters:** - **First public OpenClaw benchmark data** (300 battles) - Performance vs. cost trade-offs now measurable - Shows which models work best for agent workflows - Validates cost-effectiveness as key metric (not just raw performance) **OpenClaw Arena:** - Public benchmark for AI age...",
+      "timestamp": "2026-04-03T11:19:05.940Z",
+      "link": "https://app.uniclaw.ai/arena?tab=costEffectiveness&via=hn",
       "subtitle": null,
       "metrics": null
     },
@@ -114,7 +15,7 @@
       "category": "arxiv",
       "title": "🗺️ Hierarchical Error-Corrective Framework for Autonomous Agents (arXiv:2603.08388)",
       "description": "- Authors: Peijin Xie, Bingquan Liu, et al. - **Focus:** Error correction in autonomous agents - Graph-based approach - **Application:** More reliable agent execution **Why this matters:** - Agents that catch and fix their own mistakes - Production reliability pattern - Reduces human intervention",
-      "timestamp": "2026-03-24T18:05:39.691Z",
+      "timestamp": "2026-04-03T11:19:05.934Z",
       "link": "https://arxiv.org/abs/2603.08388",
       "subtitle": null,
       "metrics": null
@@ -123,7 +24,7 @@
       "category": "arxiv",
       "title": "M³-ACE: Multi-Agent Visual + Math Reasoning (arXiv:2603.08369)",
       "description": "- Authors: Peijin Xie, Zhen Xu, Bingquan Liu, Baoxun Wang - **Focus:** Multi-agent collaboration for math problems - Visual + language reasoning combined - **Pattern:** Multi-agent systems for complex tasks",
-      "timestamp": "2026-03-24T18:05:39.691Z",
+      "timestamp": "2026-04-03T11:19:05.934Z",
       "link": "https://arxiv.org/abs/2603.08369",
       "subtitle": null,
       "metrics": null
@@ -132,8 +33,143 @@
       "category": "arxiv",
       "title": "Agentic Neurosymbolic Collaboration (arXiv:2603.08322)",
       "description": "- Authors: Hai Xia, Carla P. Gomes, Bart Selman, Stefan Szeider - **Breakthrough:** Combining neural + symbolic AI via agents - Focus: Combinatorial design discovery - **Significance:** Agents advancing mathematics research - **Team:** Cornell + Vienna heavyweights **Why this matters:** - Shows agent capabilities beyond coding - Multi-agent collaboration patterns - Symbolic + neural hybrid approac...",
-      "timestamp": "2026-03-24T18:05:39.691Z",
+      "timestamp": "2026-04-03T11:19:05.934Z",
       "link": "https://arxiv.org/abs/2603.08322",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "arxiv",
+      "title": "📱 SecAgent: Efficient Mobile GUI Agent (arXiv:2603.08533) - NEW",
+      "description": "**Mobile automation agent at 3B scale** - Open-source coming **What it does:** - Automates smartphone tasks via GUI understanding - Chinese mobile GUI dataset (18k grounding samples, 121k navigation steps) - Semantic context mechanism (distills history into natural language) - Outperforms similar-scale baselines **Why relevant:** - Mobile automation for agent workflows - Efficient (3B model, not m...",
+      "timestamp": "2026-04-03T11:19:05.933Z",
+      "link": "https://arxiv.org/abs/2603.08533",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "arxiv",
+      "title": "SPIRAL: Self-Improving Planning Agents (arXiv:2603.08403) - NEW",
+      "description": "**Closed-loop think-act-reflect framework** **Innovation:** - PlanAgent: Decomposes actions into sub-actions - CriticAgent: Evaluates results and guides refinement - Long-horizon memory for iterative improvement - Supports RL optimization **Pattern:** - Think → Act → Reflect → Improve (closed loop) - Agents that learn from their own outputs - Similar to \"while I sleep\" autonomous theme **Why this...",
+      "timestamp": "2026-04-03T11:19:05.933Z",
+      "link": "https://arxiv.org/abs/2603.08403",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "arxiv",
+      "title": "Agentic Critical Training (arXiv:2603.08706)",
+      "description": "- Authors: Weize Liu, Minghui Liu, et al. (UMD/Maryland) - **NEW training methodology for agents** - Focus: Critical thinking capabilities - **Relevance:** Training better reasoning agents",
+      "timestamp": "2026-04-03T11:19:05.933Z",
+      "link": "https://arxiv.org/abs/2603.08706",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "arxiv",
+      "title": "RetroAgent: Self-Evolving Agents (arXiv:2603.08561)",
+      "description": "- Authors: Xiaoying Zhang, Zichen Liu, et al. - **Key insight:** Agents that learn from their own past actions - Retrospective self-improvement loop - **Application:** Self-evolving agent systems **Why this matters:** - Agents getting better over time without retraining - Practical pattern for production systems - Learn from failures automatically",
+      "timestamp": "2026-04-03T11:19:05.933Z",
+      "link": "https://arxiv.org/abs/2603.08561",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "arxiv",
+      "title": "🏢 IronEngine: General AI Assistant (arXiv:2603.08425)",
+      "description": "- Authors: Feng Wang, Zhen Xu, Bingquan Liu - **Focus:** General purpose AI assistant architecture - Multi-domain capabilities - **Relevance:** Reference architecture for agent design",
+      "timestamp": "2026-04-03T11:19:05.933Z",
+      "link": "https://arxiv.org/abs/2603.08425",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "anthropic",
+      "title": "\"Building Agents That Run While I Sleep\" - NOW 285 POINTS! ⬆️ (was 241)",
+      "description": "**Viral growth continues** - Community resonating with autonomous agent patterns **Why the spike:** - Practical patterns people can implement - Addresses real pain point (agents need supervision) - Shows how to build truly autonomous workflows",
+      "timestamp": "2026-04-03T11:19:05.932Z",
+      "link": "https://www.claudecodecamp.com/p/i-m-building-agents-that-run-while-i-sleep",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "ecosystem",
+      "title": "🎯 Agentic Engineering Patterns by Simon Willison (VIRAL - 447+ points on HN)",
+      "description": "**MUST-READ GUIDE** - Community is spiking on this: - **Practical patterns** for building AI agents - From Simon Willison (trusted AI observer, Django creator) - Went viral on HN (379 → 447 points in 4 minutes) - Exactly what you need for AI-native engineering **Why this matters:** - Real engineering patterns, not theory - Community validation (viral = people needed this) - Directly applicable to...",
+      "timestamp": "2026-04-03T11:19:05.932Z",
+      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "hn",
+      "title": "Claude Code Economics Debunked",
+      "description": "**Debunking viral claim** that Anthropic loses $5k per Claude Code user: - Original claim spread widely - This analysis shows the math doesn't add up - Actual costs likely far lower - **Context:** Understanding economics of AI coding tools **Why relevant:** You're learning Claude Code - understanding its business model matters for long-term viability. **HN Discussion:** 343 points, 248 comments (s...",
+      "timestamp": "2026-04-03T11:19:05.932Z",
+      "link": "https://martinalderson.com/posts/no-it-doesnt-cost-anthropic-5k-per-claude-code-user/",
+      "subtitle": null,
+      "metrics": "343 points • 248 comments"
+    },
+    {
+      "category": "ecosystem",
+      "title": "🚀 Klaus: Hosted OpenClaw (YC-backed)  NEW (31 pts on HN)",
+      "description": "**Managed OpenClaw hosting service** **What it does:** - Each user gets their own EC2 instance with preconfigured keys - Pre-integrated OAuth for Slack, Google Workspace - Automatic updates, private subnet, security hardening - ClawBert: AI SRE for auto-fixing broken instances **Pricing:** - $19/mo (t4g.small) to $200/mo (t4g.xlarge) - Includes $15 in tokens + $20 Orthogonal credits **Why relevant...",
+      "timestamp": "2026-04-03T11:19:05.932Z",
+      "link": "https://klausai.com/",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "ecosystem",
+      "title": "🎬 Prism: AI Video Platform with OpenClaw (YC X25) - NEW (14 pts)",
+      "description": "**AI video creation with OpenClaw integration** **What it does:** - Unified workflow for multi-step AI video (Kling, Veo, Sora, Hailuo) - Template-based workflows exposed via API - OpenClaw agents can discover templates and generate videos **Demo:** https://www.youtube.com/watch?v=5dWaD23qnro (UGC ads automation) **Why relevant:** - OpenClaw skill for video generation - Shows agents composing mult...",
+      "timestamp": "2026-04-03T11:19:05.932Z",
+      "link": "https://www.prismvideos.com",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "ecosystem",
+      "title": "🎰 PiClaw: OpenClaw Alternative in Bun (NEW - 240 stars)",
+      "description": "**Someone building OpenClaw alternative using Bun runtime** **What it is:** - \"I'm going to build my own OpenClaw, with blackjack... and bun!\" - Started Feb 17, 2026 - 240 stars already - Alternative implementation exploring different runtime **Why relevant:** - Shows OpenClaw concepts gaining traction - Different implementation approaches emerging - Community experimentation **Status:** Early sta...",
+      "timestamp": "2026-04-03T11:19:05.932Z",
+      "link": "https://github.com/rcarmo/piclaw",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "ecosystem",
+      "title": "🏗️ DenchClaw: Production CRM Reference Architecture",
+      "description": "**MARCUS: THIS IS YOUR #1 PRIORITY TO STUDY** A YC S24 company (Dench) just open-sourced a **complete production CRM** built entirely on OpenClaw. **What it is:** - Full-featured local CRM powered by OpenClaw - Works as: CRM + coding agent (Cursor-like) + browser automation tool - File-based architecture (DuckDB database) - Talk to your data in natural language **Why this matters for you:** - Real...",
+      "timestamp": "2026-04-03T11:19:05.932Z",
+      "link": "https://github.com/DenchHQ/DenchClaw",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "arxiv",
+      "title": "RecThinker: Tool-Augmented Reasoning for Recommendations (arXiv:2603.09843) - NEW TODAY",
+      "description": "**Agentic framework for recommendation systems** **Innovation - Analyze-Plan-Act paradigm:** 1. Analyzes information sufficiency 2. Plans reasoning paths 3. Autonomously invokes tools to bridge gaps **Key advancement:** - Shifts from passive processing → autonomous investigation - Dynamic tool-use for user-side, item-side, collaborative data - Self-augmented training: SFT + RL stages **Pattern:**...",
+      "timestamp": "2026-04-03T11:19:05.932Z",
+      "link": "https://arxiv.org/abs/2603.09843",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "anthropic",
+      "title": "nah: Permission Guard for Claude Code (39 pts on HN)",
+      "description": "**Context-aware permission system for Claude Code** **Problem it solves:** - Claude Code's allow/deny doesn't scale - Agents find workarounds (200 IQ Opus breaks permissions) - Need context-aware policies, not blanket rules **How it works:** - PreToolUse hook that classifies every tool call - Maps commands → action types (filesystem_read, db_write, git_history_rewrite) - Applies policies: allow, c...",
+      "timestamp": "2026-04-03T11:19:05.931Z",
+      "link": "https://github.com/manuelschipper/nah/",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "breaking",
+      "title": "🔓 AI Agent Hacks McKinsey Platform (47 pts on HN)",
+      "description": "**Security vulnerability in enterprise AI platform** **What happened:** - Researchers hacked McKinsey's AI agent platform - Shows security gaps in AI agent systems - Demonstrates agent security challenges **Why relevant:** - Agent security is critical as adoption grows - Enterprise AI platforms have vulnerabilities - Need for sandboxing and security boundaries **Pattern:** AI agent security and sa...",
+      "timestamp": "2026-04-03T11:19:05.931Z",
+      "link": "https://codewall.ai/blog/how-we-hacked-mckinseys-ai-platform",
       "subtitle": null,
       "metrics": null
     },
@@ -141,7 +177,7 @@
       "category": "arxiv",
       "title": "🔗 Chow-Liu Ordering for Chain-of-Agents (arXiv:2603.09835)",
       "description": "**Optimizing chunk ordering in multi-agent reasoning over long contexts** **What this solves:** - Chain-of-Agents (CoA) processes long contexts by splitting into chunks - Processing order affects final answer quality (lossy information bottleneck) - Uses probabilistic ordering to minimize information loss **Key insight:** - CoA approximates joint reasoning via sequential agent processing - Chunk o...",
-      "timestamp": "2026-03-24T18:05:39.690Z",
+      "timestamp": "2026-04-03T11:19:05.931Z",
       "link": "https://arxiv.org/abs/2603.09835",
       "subtitle": null,
       "metrics": null
@@ -150,53 +186,8 @@
       "category": "arxiv",
       "title": "👁️ MA-EgoQA: Multi-Agent Egocentric Video Understanding (arXiv:2603.09827)",
       "description": "**Benchmark for understanding multiple embodied agents simultaneously** **What it does:** - 1.7k questions spanning 5 categories (social interaction, task coordination, theory-of-mind) - Multiple long-horizon egocentric videos from embodied agents - Baseline model: EgoMAS with shared memory + agent-wise retrieval **Key finding:** - Current approaches fail to handle multiple egocentric streams effe...",
-      "timestamp": "2026-03-24T18:05:39.690Z",
+      "timestamp": "2026-04-03T11:19:05.931Z",
       "link": "https://arxiv.org/abs/2603.09827",
-      "subtitle": null,
-      "metrics": null
-    },
-    {
-      "category": "anthropic",
-      "title": "\"Building Agents That Run While I Sleep\" - NOW 285 POINTS! ⬆️ (was 241)",
-      "description": "**Viral growth continues** - Community resonating with autonomous agent patterns **Why the spike:** - Practical patterns people can implement - Addresses real pain point (agents need supervision) - Shows how to build truly autonomous workflows",
-      "timestamp": "2026-03-24T18:05:39.690Z",
-      "link": "https://www.claudecodecamp.com/p/i-m-building-agents-that-run-while-i-sleep",
-      "subtitle": null,
-      "metrics": null
-    },
-    {
-      "category": "breaking",
-      "title": "🔓 AI Agent Hacks McKinsey Platform (47 pts on HN)",
-      "description": "**Security vulnerability in enterprise AI platform** **What happened:** - Researchers hacked McKinsey's AI agent platform - Shows security gaps in AI agent systems - Demonstrates agent security challenges **Why relevant:** - Agent security is critical as adoption grows - Enterprise AI platforms have vulnerabilities - Need for sandboxing and security boundaries **Pattern:** AI agent security and sa...",
-      "timestamp": "2026-03-24T18:05:39.689Z",
-      "link": "https://codewall.ai/blog/how-we-hacked-mckinseys-ai-platform",
-      "subtitle": null,
-      "metrics": null
-    },
-    {
-      "category": "anthropic",
-      "title": "nah: Permission Guard for Claude Code (39 pts on HN)",
-      "description": "**Context-aware permission system for Claude Code** **Problem it solves:** - Claude Code's allow/deny doesn't scale - Agents find workarounds (200 IQ Opus breaks permissions) - Need context-aware policies, not blanket rules **How it works:** - PreToolUse hook that classifies every tool call - Maps commands → action types (filesystem_read, db_write, git_history_rewrite) - Applies policies: allow, c...",
-      "timestamp": "2026-03-24T18:05:39.687Z",
-      "link": "https://github.com/manuelschipper/nah/",
-      "subtitle": null,
-      "metrics": null
-    },
-    {
-      "category": "anthropic",
-      "title": "PostTrainBench: LLM Agents Automating LLM Training ⭐⭐⭐",
-      "description": "**MAJOR BREAKTHROUGH** - Agents can now automate AI research itself **What this is:** - Benchmark for LLM agents performing post-training autonomously - Frontier agents (Claude Code with Opus 4.6) optimizing base LLMs - Full autonomy: agents find info on web, run experiments, curate data - Bounded compute: 10 hours on one H100 GPU **Key results:** - Best agent: 23.2% performance vs 51.1% for offic...",
-      "timestamp": "2026-03-24T18:05:39.686Z",
-      "link": "https://posttrainbench.com/",
-      "subtitle": null,
-      "metrics": null
-    },
-    {
-      "category": "anthropic",
-      "title": "1,573 Claude Code Sessions Analyzed  NEW (102 pts, 20 comments on HN)",
-      "description": "**Real-world data analysis of how Claude Code agents actually work** **What this is:** - Analyzed 1,573 Claude Code sessions - GitHub repo: obsessiondb/rudel - Empirical data on agent behavior patterns **Why this matters for Marcus:** - **DATA-DRIVEN INSIGHTS** on Claude Code (not theory) - Understand how agents work in practice - Patterns, failure modes, usage stats from real sessions - **DIRECTL...",
-      "timestamp": "2026-03-24T18:05:39.686Z",
-      "link": "https://github.com/obsessiondb/rudel",
       "subtitle": null,
       "metrics": null
     },
@@ -204,7 +195,7 @@
       "category": "breaking",
       "title": "💻 Hammerspoon: macOS Automation  (272 pts on HN)",
       "description": "**Lua-based macOS automation tool getting renewed attention** (96 comments) **What it does:** - Bridge between macOS APIs and Lua scripting - Window management, keyboard shortcuts, menu bar apps - Automation workflows **Why trending now:** - Alternative to AI automation for deterministic tasks - Complements agent workflows (use both) - Shows continued value of scripting vs. AI for some tasks **Pat...",
-      "timestamp": "2026-03-24T18:05:39.684Z",
+      "timestamp": "2026-04-03T11:19:05.929Z",
       "link": "https://github.com/Hammerspoon/hammerspoon",
       "subtitle": null,
       "metrics": null
@@ -213,17 +204,26 @@
       "category": "ecosystem",
       "title": "🖱️ Mouser: Open-Source Logitech Alternative (280 pts on HN)",
       "description": "**Open-source macOS app to replace Logi Options Plus** (80 comments) **Motivation:** - Logi Options Plus consuming 40-60% CPU - Telemetry concerns - Bloated proprietary software **Relevance:** - Shows community push for lightweight, privacy-respecting tools - Pattern: Open alternatives to bloated commercial software - Similar ethos to OpenClaw (open vs. proprietary)",
-      "timestamp": "2026-03-24T18:05:39.684Z",
+      "timestamp": "2026-04-03T11:19:05.929Z",
       "link": "https://github.com/TomBadash/MouseControl",
       "subtitle": null,
       "metrics": null
     },
     {
       "category": "anthropic",
-      "title": "Claudetop: htop for Claude Code  NEW (Show HN - 26 pts)",
-      "description": "**Real-time monitoring for Claude Code API spending** **What it does:** - Terminal UI (like `htop`) showing Claude Code sessions in real-time - Live cost tracking per session - Token usage monitoring - Performance metrics **Why this matters for Marcus:** - **DIRECTLY relevant to your Claude Code workflow** - Visibility into API costs before they surprise you - Understanding resource consumption pa...",
-      "timestamp": "2026-03-24T18:05:39.683Z",
-      "link": "https://github.com/liorwn/claudetop",
+      "title": "PostTrainBench: LLM Agents Automating LLM Training ⭐⭐⭐",
+      "description": "**MAJOR BREAKTHROUGH** - Agents can now automate AI research itself **What this is:** - Benchmark for LLM agents performing post-training autonomously - Frontier agents (Claude Code with Opus 4.6) optimizing base LLMs - Full autonomy: agents find info on web, run experiments, curate data - Bounded compute: 10 hours on one H100 GPU **Key results:** - Best agent: 23.2% performance vs 51.1% for offic...",
+      "timestamp": "2026-04-03T11:19:05.929Z",
+      "link": "https://posttrainbench.com/",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "anthropic",
+      "title": "1,573 Claude Code Sessions Analyzed  NEW (102 pts, 20 comments on HN)",
+      "description": "**Real-world data analysis of how Claude Code agents actually work** **What this is:** - Analyzed 1,573 Claude Code sessions - GitHub repo: obsessiondb/rudel - Empirical data on agent behavior patterns **Why this matters for Marcus:** - **DATA-DRIVEN INSIGHTS** on Claude Code (not theory) - Understand how agents work in practice - Patterns, failure modes, usage stats from real sessions - **DIRECTL...",
+      "timestamp": "2026-04-03T11:19:05.929Z",
+      "link": "https://github.com/obsessiondb/rudel",
       "subtitle": null,
       "metrics": null
     },
@@ -231,43 +231,16 @@
       "category": "ecosystem",
       "title": "🎯 GitAgent: Portable Agent Spec ⭐⭐⭐ STRONG VALIDATION (Show HN - 95 pts!)",
       "description": "**Final tally (March 14):** 95 points, 13 comments. Grown from 11 → 95 pts over 12 hours. Community strongly validated git-native agent approach. **Git-native agent specification for portability across frameworks** **What it solves:** - Every agent framework defines agents differently - Switching frameworks = rewriting everything - No standard way to version/share agent definitions **The spec - Th...",
-      "timestamp": "2026-03-24T18:05:39.683Z",
+      "timestamp": "2026-04-03T11:19:05.928Z",
       "link": "https://www.gitagent.sh/",
       "subtitle": null,
       "metrics": "95 points • 13 comments"
     },
     {
-      "category": "breaking",
-      "title": "📚 LLM Architecture Gallery  (452 pts ⬆️)",
-      "description": "**Update:** Strong growth - 348 → 452 pts **Comprehensive visual guide to LLM architectures** - by Sebastian Raschka **What it covers:** - Visual diagrams of major LLM architectures - Evolution from transformers to modern variants - Technical details and design choices - Educational resource for understanding model internals **Why relevant:** - Understand the models you're building agents with - A...",
-      "timestamp": "2026-03-24T18:05:39.682Z",
-      "link": "https://sebastianraschka.com/llm-architecture-gallery/",
-      "subtitle": null,
-      "metrics": null
-    },
-    {
-      "category": "anthropic",
-      "title": "💻 How I Write Software with LLMs  VIRAL (282 pts! ⬆️)",
-      "description": "**Update:** TRIPLED - 93 → 186 → 282 pts in 6 hours! Strongest validation of practical content. **Practical guide to LLM-assisted coding workflows** **Key insights from discussion:** - Real-world patterns for using Claude/GPT in development - When to use AI vs. when to write yourself - Workflow integration strategies - Productivity tips and pitfalls **Why relevant:** - Practical patterns you can a...",
-      "timestamp": "2026-03-24T18:05:39.682Z",
-      "link": "https://www.stavros.io/posts/how-i-write-software-with-llms/",
-      "subtitle": null,
-      "metrics": null
-    },
-    {
-      "category": "anthropic",
-      "title": "🎁 Claude March 2026 Usage Promotion  (213 pts, 132 comments)",
-      "description": "**Anthropic offering increased usage limits for March 2026** **Details from discussion:** - Increased rate limits for Pro subscribers - Extra message credits for heavy users - Community response is positive (145 pts, 93 comments) - Shows Anthropic investing in user retention **Why relevant:** - Affects your Claude Code usage capacity - More headroom for experimentation - Pattern: AI companies comp...",
-      "timestamp": "2026-03-24T18:05:39.682Z",
-      "link": "https://support.claude.com/en/articles/14063676-claude-march-2026-usage-promotion",
-      "subtitle": null,
-      "metrics": "145 points • 93 comments"
-    },
-    {
       "category": "ecosystem",
       "title": "🧩 Language Model Teams as Distributed Systems (91 pts)",
       "description": "**Research framing multi-agent systems through distributed systems lens** **Key insight:** - Multi-agent LLM systems = distributed computing problem - Same challenges: coordination, consistency, fault tolerance - Decades of distributed systems research applies - New protocols needed for agent-to-agent communication **Why relevant:** - **OpenClaw IS a distributed agent system** - Classical CS theor...",
-      "timestamp": "2026-03-24T18:05:39.681Z",
+      "timestamp": "2026-04-03T11:19:05.927Z",
       "link": "https://arxiv.org/abs/2603.12229",
       "subtitle": null,
       "metrics": null
@@ -276,44 +249,44 @@
       "category": "ecosystem",
       "title": "Chrome DevTools MCP: Browser Debugging for Agents  MAJOR (514 pts! ⬆️)",
       "description": "**Update:** Sustained growth - 437 → 470 → 514 pts over 6 hours **Google Chrome shipped MCP server integration for agent debugging** - Published Dec 2025, trending now **What this enables:** - Coding agents can directly connect to **active browser sessions** - Full Chrome DevTools access via Model Context Protocol - Auto-connection to running Chrome instances - Agents can debug what you're seeing...",
-      "timestamp": "2026-03-24T18:05:39.681Z",
+      "timestamp": "2026-04-03T11:19:05.927Z",
       "link": "https://developer.chrome.com/blog/chrome-devtools-mcp-debug-your-browser-session",
       "subtitle": null,
       "metrics": null
     },
     {
-      "category": "ecosystem",
-      "title": "🎮 Show HN: Claude Code Skills for Complete Godot Games (246 pts)",
-      "description": "**Community-built skills for game development with Claude Code** **What it does:** - Complete game generation pipeline - Godot engine integration - Claude Code skill framework - End-to-end automation (design → playable game) **Why relevant:** - **Real-world example of Claude Code skill framework in action** - Shows what's possible with structured agent workflows - Game dev as proving ground for co...",
-      "timestamp": "2026-03-24T18:05:39.680Z",
-      "link": "https://github.com/htdt/godogen",
+      "category": "breaking",
+      "title": "📚 LLM Architecture Gallery  (452 pts ⬆️)",
+      "description": "**Update:** Strong growth - 348 → 452 pts **Comprehensive visual guide to LLM architectures** - by Sebastian Raschka **What it covers:** - Visual diagrams of major LLM architectures - Evolution from transformers to modern variants - Technical details and design choices - Educational resource for understanding model internals **Why relevant:** - Understand the models you're building agents with - A...",
+      "timestamp": "2026-04-03T11:19:05.927Z",
+      "link": "https://sebastianraschka.com/llm-architecture-gallery/",
       "subtitle": null,
       "metrics": null
     },
     {
       "category": "anthropic",
-      "title": "Claude Tips for 3D Work (108 pts)",
-      "description": "**Real-world Claude usage patterns for 3D modeling/game dev** **Key insights:** - Claude excels at **procedural generation** for 3D assets - Works well with Blender Python API - Can generate shader code, scene setups, animation curves - Best when iterating on spatial/geometric problems **Why relevant:** - **Practical Claude Code usage guide** from the field - 3D workflows = complex spatial reasoni...",
-      "timestamp": "2026-03-24T18:05:39.680Z",
-      "link": "https://www.davesnider.com/posts/claude-3d",
+      "title": "💻 How I Write Software with LLMs  VIRAL (282 pts! ⬆️)",
+      "description": "**Update:** TRIPLED - 93 → 186 → 282 pts in 6 hours! Strongest validation of practical content. **Practical guide to LLM-assisted coding workflows** **Key insights from discussion:** - Real-world patterns for using Claude/GPT in development - When to use AI vs. when to write yourself - Workflow integration strategies - Productivity tips and pitfalls **Why relevant:** - Practical patterns you can a...",
+      "timestamp": "2026-04-03T11:19:05.927Z",
+      "link": "https://www.stavros.io/posts/how-i-write-software-with-llms/",
       "subtitle": null,
       "metrics": null
     },
     {
       "category": "anthropic",
-      "title": "💼 NEW: OpenAI IPO Focus",
-      "description": "**What it is:** - Analysis of OpenAI's pivot toward IPO preparation - Shift from pure research to revenue/governance focus **Why it matters:** - Strategic direction affects product roadmap - IPO pressure = shorter-term thinking - Could impact Claude Code competitive dynamics **Pattern:** AI companies maturing from research labs → public companies",
-      "timestamp": "2026-03-24T18:05:39.679Z",
-      "link": "https://om.co/2026/03/17/openai-has-new-focus-on-the-ipo/",
+      "title": "🎁 Claude March 2026 Usage Promotion  (213 pts, 132 comments)",
+      "description": "**Anthropic offering increased usage limits for March 2026** **Details from discussion:** - Increased rate limits for Pro subscribers - Extra message credits for heavy users - Community response is positive (145 pts, 93 comments) - Shows Anthropic investing in user retention **Why relevant:** - Affects your Claude Code usage capacity - More headroom for experimentation - Pattern: AI companies comp...",
+      "timestamp": "2026-04-03T11:19:05.927Z",
+      "link": "https://support.claude.com/en/articles/14063676-claude-march-2026-usage-promotion",
       "subtitle": null,
-      "metrics": null
+      "metrics": "145 points • 93 comments"
     },
     {
-      "category": "ecosystem",
-      "title": "Zeroboot - Strong Sustained Interest",
-      "description": "**Momentum:** 123→167→205 - Parallel growth with Mistral Forge **What it is:** - Copy-on-Write memory forking for ultra-fast VM startup - Sub-millisecond cold starts - GitHub repo with working code **Why it matters:** - **Agent sandboxing performance breakthrough** - Fast isolation = safer code execution - Pattern: CoW memory = instant environment cloning - Practical implementation you can use TOD...",
-      "timestamp": "2026-03-24T18:05:39.679Z",
-      "link": "https://github.com/adammiribyan/zeroboot",
+      "category": "anthropic",
+      "title": "Claudetop: htop for Claude Code  NEW (Show HN - 26 pts)",
+      "description": "**Real-time monitoring for Claude Code API spending** **What it does:** - Terminal UI (like `htop`) showing Claude Code sessions in real-time - Live cost tracking per session - Token usage monitoring - Performance metrics **Why this matters for Marcus:** - **DIRECTLY relevant to your Claude Code workflow** - Visibility into API costs before they surprise you - Understanding resource consumption pa...",
+      "timestamp": "2026-04-03T11:19:05.927Z",
+      "link": "https://github.com/liorwn/claudetop",
       "subtitle": null,
       "metrics": null
     },
@@ -321,7 +294,7 @@
       "category": "hn",
       "title": "📖 Warranty Void If Regenerated (328 HN points, 186 comments)",
       "description": "**Using Claude for fiction writing with structured documentation** **The experiment:** - Started asking Claude to explain concepts via fiction stories - Found it surprisingly effective - Built world bibles, writing guides, visual style docs - **\"Fiction equivalent of markdown files for agentic development\"** - Two weeks of polish work to remove LLM-isms **Why this went viral (328 points, 186 comme...",
-      "timestamp": "2026-03-24T18:05:39.678Z",
+      "timestamp": "2026-04-03T11:19:05.925Z",
       "link": "https://nearzero.software/p/warranty-void-if-regenerated",
       "subtitle": null,
       "metrics": "328 points • 186 comments"
@@ -330,26 +303,53 @@
       "category": "breaking",
       "title": "🖥️ Nvidia Greenboost: GPU VRAM Extension (313 HN points)",
       "description": "**Transparently extend GPU VRAM using system RAM/NVMe** **What it does:** - Overflows GPU memory to system RAM (graceful degradation) - Transparent to applications (no code changes) - Enables running larger models on consumer GPUs - Trade-off: Speed for capacity **Why relevant for AI:** - **Run bigger models locally** (privacy + cost savings) - Workaround for VRAM limitations (24GB → 64GB+ effecti...",
-      "timestamp": "2026-03-24T18:05:39.678Z",
+      "timestamp": "2026-04-03T11:19:05.925Z",
       "link": "https://gitlab.com/IsolatedOctopi/nvidia_greenboost",
       "subtitle": null,
       "metrics": null
     },
     {
-      "category": "ecosystem",
-      "title": "🚀 MAJOR: AgentFactory - Self-Evolving Agents Through Executable Code ⭐⭐⭐",
-      "description": "**THIS IS HUGE** - Revolutionary paradigm shift in agent memory **The breakthrough:** - **OLD:** Store experiences as textual prompts/reflections - **NEW:** Save successful task solutions as **executable Python subagents** - Subagents continuously refined based on execution feedback - Pure Python + standardized docs = portable across ANY Python system **How it works:** 1. Agent completes task succ...",
-      "timestamp": "2026-03-24T18:05:39.674Z",
-      "link": "http://arxiv.org/abs/2603.18000v1",
+      "category": "anthropic",
+      "title": "💼 NEW: OpenAI IPO Focus",
+      "description": "**What it is:** - Analysis of OpenAI's pivot toward IPO preparation - Shift from pure research to revenue/governance focus **Why it matters:** - Strategic direction affects product roadmap - IPO pressure = shorter-term thinking - Could impact Claude Code competitive dynamics **Pattern:** AI companies maturing from research labs → public companies",
+      "timestamp": "2026-04-03T11:19:05.925Z",
+      "link": "https://om.co/2026/03/17/openai-has-new-focus-on-the-ipo/",
       "subtitle": null,
       "metrics": null
     },
     {
-      "category": "breaking",
-      "title": "Autoresearch for SAT Solvers (123 HN points)",
-      "description": "**Agent autonomously researching SAT solver optimization** **What it is:** - Autonomous agent proposing experiments on SAT algorithms - Modifies code, runs experiments, evaluates results - Shares findings with research community - Similar to PostTrainBench but for algorithmic optimization **Why relevant:** - **Agents doing actual research** (not just coding assistance) - Self-directed experimentat...",
-      "timestamp": "2026-03-24T18:05:39.674Z",
-      "link": "https://github.com/iliazintchenko/agent-sat",
+      "category": "ecosystem",
+      "title": "Zeroboot - Strong Sustained Interest",
+      "description": "**Momentum:** 123→167→205 - Parallel growth with Mistral Forge **What it is:** - Copy-on-Write memory forking for ultra-fast VM startup - Sub-millisecond cold starts - GitHub repo with working code **Why it matters:** - **Agent sandboxing performance breakthrough** - Fast isolation = safer code execution - Pattern: CoW memory = instant environment cloning - Practical implementation you can use TOD...",
+      "timestamp": "2026-04-03T11:19:05.925Z",
+      "link": "https://github.com/adammiribyan/zeroboot",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "ecosystem",
+      "title": "🎮 Show HN: Claude Code Skills for Complete Godot Games (246 pts)",
+      "description": "**Community-built skills for game development with Claude Code** **What it does:** - Complete game generation pipeline - Godot engine integration - Claude Code skill framework - End-to-end automation (design → playable game) **Why relevant:** - **Real-world example of Claude Code skill framework in action** - Shows what's possible with structured agent workflows - Game dev as proving ground for co...",
+      "timestamp": "2026-04-03T11:19:05.925Z",
+      "link": "https://github.com/htdt/godogen",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "anthropic",
+      "title": "Claude Tips for 3D Work (108 pts)",
+      "description": "**Real-world Claude usage patterns for 3D modeling/game dev** **Key insights:** - Claude excels at **procedural generation** for 3D assets - Works well with Blender Python API - Can generate shader code, scene setups, animation curves - Best when iterating on spatial/geometric problems **Why relevant:** - **Practical Claude Code usage guide** from the field - 3D workflows = complex spatial reasoni...",
+      "timestamp": "2026-04-03T11:19:05.925Z",
+      "link": "https://www.davesnider.com/posts/claude-3d",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "anthropic",
+      "title": "📖 Claude Code Cheat Sheet ⭐⭐⭐ PRACTICAL (376 HN pts)",
+      "description": "**Community-created reference guide for Claude Code workflows** **What it covers:** - Quick reference for common Claude Code commands - Workflow patterns and best practices - Tips for effective prompting - Integration techniques **Why this matters:** - **Directly applicable to your daily work** - Community-validated patterns (376 points) - Shows what works in practice, not just theory - Quick look...",
+      "timestamp": "2026-04-03T11:19:05.924Z",
+      "link": "https://cc.storyfox.cz",
       "subtitle": null,
       "metrics": null
     },
@@ -357,7 +357,7 @@
       "category": "ecosystem",
       "title": "Show HN: Cq - Stack Overflow for AI Coding Agents ⭐⭐ TOOLING (138 HN pts)",
       "description": "**Mozilla AI building knowledge base specifically for coding agents** **What it is:** - Q&A platform designed for agent consumption (not humans) - Structured format optimized for LLM context windows - Answers tagged with verification status - Searchable by agents during coding tasks **Why this is different from Stack Overflow:** - **Format optimized for agent retrieval** (not human reading) - Veri...",
-      "timestamp": "2026-03-24T18:05:39.668Z",
+      "timestamp": "2026-04-03T11:19:05.924Z",
       "link": "https://blog.mozilla.ai/cq-stack-overflow-for-agents/",
       "subtitle": null,
       "metrics": null
@@ -366,7 +366,7 @@
       "category": "breaking",
       "title": "🏭 AI Receptionist for Mechanic Shop  PRACTICAL (271 HN pts)",
       "description": "**Real-world AI agent deployment in small business** **What was built:** - Voice-based AI receptionist for auto repair shop - Handles appointment scheduling, customer questions - Integrates with shop management software - Built by family member (not professional AI company) **Why this matters:** - **Accessibility:** Non-expert building production agent - Real business value (not demo) - Voice inte...",
-      "timestamp": "2026-03-24T18:05:39.668Z",
+      "timestamp": "2026-04-03T11:19:05.924Z",
       "link": "https://www.itsthatlady.dev/blog/building-an-ai-receptionist-for-my-brother/",
       "subtitle": null,
       "metrics": null
@@ -375,7 +375,7 @@
       "category": "anthropic",
       "title": "🎯 Teaching Claude to QA a Mobile App ⭐⭐ PRACTICAL (101 HN pts)",
       "description": "**Real-world Claude usage for mobile app testing** - Published today **What they built:** - Claude-powered QA system for mobile app testing - Automates common test scenarios across iOS and Android - Practical implementation of Claude Code for mobile workflows **Why this matters:** - **Concrete example of Claude integration** for non-web domains - Mobile testing is tedious → good automation target...",
-      "timestamp": "2026-03-24T18:05:39.668Z",
+      "timestamp": "2026-04-03T11:19:05.924Z",
       "link": "https://christophermeiklejohn.com/ai/zabriskie/development/android/ios/2026/03/22/teaching-claude-to-qa-a-mobile-app.html",
       "subtitle": null,
       "metrics": null
@@ -384,35 +384,71 @@
       "category": "ecosystem",
       "title": "Show HN: Agent Kernel - Stateful AI Agents in 3 Markdown Files (15 pts)",
       "description": "**Minimal agent framework using git for state management** **Core concept:** - 3 files define agent: `SOUL.md`, `MEMORY.md`, `TOOLS.md` - Git commits = agent memory snapshots - Branches = parallel agent experiments - PRs = human review of agent behavior changes **Architecture:** - File-based state (like OpenClaw!) - Version control for agent evolution - Minimal abstractions - Portable across frame...",
-      "timestamp": "2026-03-24T18:05:39.668Z",
+      "timestamp": "2026-04-03T11:19:05.924Z",
       "link": "https://github.com/oguzbilgic/agent-kernel",
       "subtitle": null,
       "metrics": null
     },
     {
       "category": "ecosystem",
-      "title": "👁️ Show HN: ProofShot - Visual Verification for AI Coding Agents  (59 pts)",
-      "description": "**Gives coding agents \"eyes\" to verify the UI they build** **The problem:** - Coding agents generate UI code blindly - Can't see what they built (code ≠ visual result) - No feedback loop for visual correctness - Humans have to manually verify every UI change **The solution:** - Screenshot capture of agent-built UI - Visual verification before declaring \"done\" - Agents can iterate based on visual f...",
-      "timestamp": "2026-03-24T18:05:39.667Z",
-      "link": "https://proofshot.argil.io/",
+      "title": "🚀 MAJOR: AgentFactory - Self-Evolving Agents Through Executable Code ⭐⭐⭐",
+      "description": "**THIS IS HUGE** - Revolutionary paradigm shift in agent memory **The breakthrough:** - **OLD:** Store experiences as textual prompts/reflections - **NEW:** Save successful task solutions as **executable Python subagents** - Subagents continuously refined based on execution feedback - Pure Python + standardized docs = portable across ANY Python system **How it works:** 1. Agent completes task succ...",
+      "timestamp": "2026-04-03T11:19:05.924Z",
+      "link": "http://arxiv.org/abs/2603.18000v1",
       "subtitle": null,
       "metrics": null
     },
     {
-      "category": "anthropic",
-      "title": "📖 Claude Code Cheat Sheet ⭐⭐⭐ PRACTICAL (376 HN pts)",
-      "description": "**Community-created reference guide for Claude Code workflows** **What it covers:** - Quick reference for common Claude Code commands - Workflow patterns and best practices - Tips for effective prompting - Integration techniques **Why this matters:** - **Directly applicable to your daily work** - Community-validated patterns (376 points) - Shows what works in practice, not just theory - Quick look...",
-      "timestamp": "2026-03-24T18:05:39.667Z",
-      "link": "https://cc.storyfox.cz",
+      "category": "breaking",
+      "title": "Autoresearch for SAT Solvers (123 HN points)",
+      "description": "**Agent autonomously researching SAT solver optimization** **What it is:** - Autonomous agent proposing experiments on SAT algorithms - Modifies code, runs experiments, evaluates results - Shares findings with research community - Similar to PostTrainBench but for algorithmic optimization **Why relevant:** - **Agents doing actual research** (not just coding assistance) - Self-directed experimentat...",
+      "timestamp": "2026-04-03T11:19:05.924Z",
+      "link": "https://github.com/iliazintchenko/agent-sat",
       "subtitle": null,
       "metrics": null
     },
     {
       "category": "ecosystem",
-      "title": "SECURITY ALERT: LiteLLM Supply-Chain Attack  CRITICAL (656 HN pts! #2 on HN)",
-      "description": "**Popular Python LLM package compromised - immediate action required** **What happened:** - **LiteLLM** package (50K+ weekly downloads) suffered supply-chain attack - Malicious code injected into recent versions - Affects anyone using LiteLLM for AI API management - Package provides unified interface to OpenAI, Anthropic, etc. **The risk:** - API keys potentially exposed - Code execution on develo...",
-      "timestamp": "2026-03-24T18:05:39.664Z",
-      "link": "https://github.com/BerriAI/litellm/issues/24512",
+      "title": "💻 Composer 2: Specialized Agentic Software Engineering Model ⭐⭐ TOOLING",
+      "description": "**Technical report on model specialized for agent-driven software development** **Key capabilities:** - Long-term planning for software projects - Strong coding intelligence - Efficient problem solving - Designed specifically for agentic workflows **Why this matters:** - **Vertical specialization** - not general-purpose, built for coding agents - Shows trend: Domain-specific models outperforming g...",
+      "timestamp": "2026-04-03T11:19:05.923Z",
+      "link": "http://arxiv.org/abs/2603.24477v1",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "hn",
+      "title": "Claude Code Usage Data: 90% Output to Small Repos ⭐ DATA (245 HN pts)",
+      "description": "**Fascinating data on how Claude Code is actually being used** **The finding:** - **90% of Claude-linked output → GitHub repos with <2 stars** - Shows Claude Code primarily used for hobbyist/learning projects - Small-scale experimentation dominates (not enterprise yet) **Why this matters:** - **Democratization validated** - widespread individual adoption - Pattern: Learning/exploration > productio...",
+      "timestamp": "2026-04-03T11:19:05.923Z",
+      "link": "https://www.claudescode.dev/?window=since_launch",
+      "subtitle": null,
+      "metrics": "245 points • 148 comments"
+    },
+    {
+      "category": "ecosystem",
+      "title": "Plain-Text Cognitive Architecture for Claude Code ⭐ FRAMEWORK (78 HN pts)",
+      "description": "**Community-built structured framework for organizing Claude Code workflows** **What it provides:** - Plain-text architecture patterns - Cognitive structures for agent development - Documentation-driven approach - Standardized organization methods **Why this matters:** - **Convergence on markdown-based agent definitions** - Validates OpenClaw's approach (SOUL.md, MEMORY.md, etc.) - Community disco...",
+      "timestamp": "2026-04-03T11:19:05.923Z",
+      "link": "https://lab.puga.com.br/cog/",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "breaking",
+      "title": "Optio: K8s Orchestration for AI Coding Agents ⭐ TOOLING (42 HN pts)",
+      "description": "**Kubernetes-based orchestration for multiple AI coding agents** **What it does:** - Orchestrates multiple agents in parallel - Ticket → PR automation - Containerized agent execution - Enterprise deployment patterns **Why this matters:** - **Enterprise agent deployment patterns emerging** - Shows production-scale thinking - Multi-agent workflows being standardized - K8s = natural fit for agent orc...",
+      "timestamp": "2026-04-03T11:19:05.923Z",
+      "link": "https://github.com/jonwiggins/optio",
+      "subtitle": null,
+      "metrics": null
+    },
+    {
+      "category": "breaking",
+      "title": "🔧 Gemini Native Video Embedding + Sub-Second Video Search  PRACTICAL (348 HN pts, +23)",
+      "description": "**Gemini can now natively embed video - practical demo shows real-world application** **What it does:** - Sub-second video search using Gemini's native video embedding - No need to extract frames or transcribe audio - Direct video → embedding → search pipeline - Open-source implementation available **Technical approach:** - Uses Gemini's multimodal capabilities - Processes video as native input (n...",
+      "timestamp": "2026-04-03T11:19:05.923Z",
+      "link": "https://github.com/ssrajadh/sentrysearch",
       "subtitle": null,
       "metrics": null
     }
